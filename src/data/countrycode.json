@@ -1,5 +1,9 @@
 [
     {
+        "country": "India",
+        "code": "+91"
+    },
+    {
         "country": "Afghanistan",
         "code": "+93"
     },
