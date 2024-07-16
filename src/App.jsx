@@ -15,6 +15,7 @@ import Login from './pages/Login'
 import VerifyEmail from './pages/VerifyEmail'
 import ForgotPassword from './pages/ForgotPassword'
 import Error from './pages/Error'
+import About from './pages/About'
 
 function App() {
   return (
@@ -56,6 +57,12 @@ function App() {
             <OpenRoute>
               <ForgotPassword />
             </OpenRoute>}
+        />
+        <Route
+          path='about'
+          element={
+            <About />
+          }
         />
         <Route
           path='*'
