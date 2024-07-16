@@ -13,6 +13,8 @@ import OpenRoute from './components/core/Auth/OpenRoute'
 import Signup from './pages/Signup'
 import Login from './pages/Login'
 import VerifyEmail from './pages/VerifyEmail'
+import ForgotPassword from './pages/ForgotPassword'
+import Error from './pages/Error'
 
 function App() {
   return (
@@ -45,6 +47,20 @@ function App() {
             <OpenRoute>
               <VerifyEmail />
             </OpenRoute>
+          }
+        />
+
+        <Route
+          path='forgot-password'
+          element={
+            <OpenRoute>
+              <ForgotPassword />
+            </OpenRoute>}
+        />
+        <Route
+          path='*'
+          element={
+            <Error />
           }
         />
 
