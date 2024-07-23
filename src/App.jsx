@@ -26,6 +26,7 @@ import { ACCOUNT_TYPE } from './utils/constants'
 import EnrolledCourses from './components/core/Dashboard/EnrolledCourses'
 import Settings from './components/core/Dashboard/Settings'
 import Cart from './components/core/Dashboard/Cart'
+import AddCourse from './components/core/Dashboard/AddCourse'
 
 function App() {
 
@@ -92,7 +93,12 @@ function App() {
             <>
               <Route path="dashboard/enrolled-courses" element={<EnrolledCourses />} />
               <Route path="/dashboard/cart" element={<Cart />} />
+            </>
+          )}
 
+          {user?.accountType === ACCOUNT_TYPE.INSTRUCTOR && (
+            <>
+              <Route path="/dashboard/add-course" element={<AddCourse />} />
             </>
           )}
 
