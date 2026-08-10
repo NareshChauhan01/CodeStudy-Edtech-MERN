@@ -1,11 +1,17 @@
-const otpTemplate = (otp) => {
+exports.enquiryTemplate = (
+  firstName,
+  lastName,
+  email,
+  phone,
+  message
+) => {
   return `<!DOCTYPE html>
     <html>
     
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Verify Your CodeStudy Account</title>
+        <title>Contact Form Confirmation</title>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
             
@@ -24,7 +30,7 @@ const otpTemplate = (otp) => {
                 margin: 0;
                 padding: 0;
             }
-    
+            
             .email-wrapper {
                 max-width: 600px;
                 margin: 0 auto;
@@ -48,9 +54,9 @@ const otpTemplate = (otp) => {
             }
             
             .header-banner {
-                background-color: #2C333F;
+                background: #2C333F;
                 color: #ffffff;
-                padding: 30px 20px 50px;
+                padding: 30px 20px;
                 text-align: center;
                 position: relative;
             }
@@ -58,15 +64,15 @@ const otpTemplate = (otp) => {
             .header-banner:after {
                 content: "";
                 position: absolute;
-                bottom: -20px;
+                bottom: -15px;
                 left: 0;
                 right: 0;
-                height: 40px;
-                background-color: #ffffff;
-                border-radius: 100% 100% 0 0 / 100% 100% 0 0;
+                height: 30px;
+                background: #ffffff;
+                border-radius: 50% 50% 0 0;
             }
             
-            .verification-badge {
+            .confirmation-badge {
                 background-color: #FFD60A;
                 color: #000000;
                 font-size: 14px;
@@ -78,7 +84,7 @@ const otpTemplate = (otp) => {
             }
             
             .header-title {
-                font-size: 28px;
+                font-size: 24px;
                 font-weight: 700;
                 margin-bottom: 10px;
                 color: #ffffff;
@@ -96,70 +102,65 @@ const otpTemplate = (otp) => {
                 text-align: left;
             }
             
-            .otp-container {
+            .details-card {
                 background-color: #F9F9F9;
                 border-radius: 12px;
                 padding: 24px;
                 margin: 24px 0;
-                text-align: center;
                 border-left: 4px solid #FFD60A;
             }
             
-            .otp-label {
-                font-size: 14px;
-                font-weight: 500;
-                color: #666666;
-                margin-bottom: 10px;
-                text-transform: uppercase;
-                letter-spacing: 1px;
+            .detail-row {
+                display: flex;
+                margin-bottom: 12px;
+                align-items: flex-start;
             }
             
-            .otp-code {
-                font-size: 36px;
-                font-weight: 700;
-                color: #2C333F;
-                letter-spacing: 6px;
-                margin: 0;
-            }
-            
-            .otp-expires {
-                font-size: 14px;
-                color: #666666;
-                margin-top: 12px;
-            }
-            
-            .divider {
-                height: 1px;
-                background-color: #efefef;
-                margin: 30px 0;
-            }
-            
-            .instructions {
-                background-color: rgba(255, 214, 10, 0.1);
-                border-radius: 12px;
-                padding: 20px;
-                margin-top: 20px;
-                border-left: 4px solid #FFD60A;
-            }
-            
-            .instructions-title {
-                font-weight: 600;
-                margin-bottom: 10px;
-                color: #2C333F;
-                font-size: 16px;
-            }
-            
-            .instructions-list {
-                margin-left: 20px;
+            .detail-row:last-child {
                 margin-bottom: 0;
             }
             
-            .instructions-list li {
+            .detail-label {
+                font-weight: 500;
+                width: 120px;
+                color: #666666;
+                flex-shrink: 0;
+            }
+            
+            .detail-value {
+                color: #1C1C1C;
+                flex-grow: 1;
+            }
+            
+            .message-box {
+                background-color: #F9F9F9;
+                border-radius: 12px;
+                padding: 20px;
+                margin-top: 24px;
+                border-left: 4px solid #FFD60A;
+            }
+            
+            .message-label {
+                font-weight: 500;
+                color: #666666;
                 margin-bottom: 8px;
             }
             
-            .instructions-list li:last-child {
-                margin-bottom: 0;
+            .cta-wrapper {
+                text-align: center;
+                margin: 30px 0;
+            }
+            
+            .cta-button {
+                display: inline-block;
+                padding: 12px 28px;
+                background-color: #FFD60A;
+                color: #000000 !important;
+                text-decoration: none;
+                border-radius: 8px;
+                font-size: 16px;
+                font-weight: 600;
+                transition: all 0.3s ease;
             }
             
             .footer {
@@ -189,6 +190,12 @@ const otpTemplate = (otp) => {
                 text-decoration: none;
             }
             
+            .divider {
+                height: 1px;
+                background-color: #efefef;
+                margin: 30px 0;
+            }
+            
             @media only screen and (max-width: 600px) {
                 .email-wrapper {
                     width: 100%;
@@ -198,15 +205,20 @@ const otpTemplate = (otp) => {
                 }
                 
                 .header-title {
-                    font-size: 24px;
+                    font-size: 22px;
                 }
                 
                 .content-wrapper {
                     padding: 30px 20px;
                 }
                 
-                .otp-code {
-                    font-size: 30px;
+                .detail-row {
+                    flex-direction: column;
+                }
+                
+                .detail-label {
+                    width: 100%;
+                    margin-bottom: 4px;
                 }
             }
         </style>
@@ -215,42 +227,56 @@ const otpTemplate = (otp) => {
     <body>
         <div class="email-wrapper">
             <div class="email-header">
-                <p>Code Study</p>
+                <a href="https://CodeStudy-iota-rouge.vercel.app">
+                    <img class="logo" src="https://res.cloudinary.com/dqhv83qhg/image/upload/v1746085347/Logo-Full-Light_wbydhl.png" alt="CodeStudy Logo">
+                </a>
             </div>
             
             <div class="header-banner">
-                <div class="verification-badge">Verification Required</div>
-                <h1 class="header-title">Verify Your Account</h1>
-                <p class="header-subtitle">Please use the verification code below to complete your registration.</p>
+                <div class="confirmation-badge">Enquiry Received</div>
+                <h1 class="header-title">Thanks for Reaching Out!</h1>
+                <p class="header-subtitle">We've received your message and will get back to you soon.</p>
             </div>
             
             <div class="content-wrapper">
-                <p>Hello there,</p>
-                <p style="margin-top: 15px;">Thank you for choosing Code Study! To ensure the security of your account, we need to verify your email address.</p>
+                <p>Hello ${firstName},</p>
+                <p style="margin-top: 16px;">Thank you for contacting CodeStudy. We've received your enquiry and our team is reviewing it. We typically respond within 24-48 hours on business days.</p>
                 
-                <div class="otp-container">
-                    <div class="otp-label">Your verification code</div>
-                    <div class="otp-code">${otp}</div>
-                    <div class="otp-expires">Valid for 5 minutes only</div>
+                <div class="details-card">
+                    <h3 style="margin-bottom: 16px; color: #2C333F;">Your Contact Information</h3>
+                    
+                    <div class="detail-row">
+                        <div class="detail-label">Name</div>
+                        <div class="detail-value">${firstName} ${lastName}</div>
+                    </div>
+                    
+                    <div class="detail-row">
+                        <div class="detail-label">Email</div>
+                        <div class="detail-value">${email}</div>
+                    </div>
+                    
+                    <div class="detail-row">
+                        <div class="detail-label">Phone</div>
+                        <div class="detail-value">${phone || 'Not provided'}</div>
+                    </div>
                 </div>
                 
-                <p>Enter this code on the verification page to activate your account. If you didn't request this code, you can safely ignore this email.</p>
+                <div class="message-box">
+                    <div class="message-label">Your Message</div>
+                    <div style="white-space: pre-wrap;">${message}</div>
+                </div>
                 
-                <div class="instructions">
-                    <h3 class="instructions-title">Next steps:</h3>
-                    <ol class="instructions-list">
-                        <li>Enter the verification code shown above</li>
-                        <li>Complete your profile setup</li>
-                        <li>Start exploring courses on Code Study</li>
-                    </ol>
+                <div class="cta-wrapper">
+                    <p style="margin-bottom: 16px;">While you wait for our response, you might find what you're looking for in our resources:</p>
+                    <a href="https://CodeStudy-iota-rouge.vercel.app/courses" class="cta-button">Browse Our Courses</a>
                 </div>
                 
                 <div class="divider"></div>
                 
-                <p style="margin-bottom: 15px;">If you're having trouble with the verification process, please contact our support team for assistance.</p>
+                <p>If your enquiry is urgent, please don't hesitate to call us directly at <strong>(123) 456-7890</strong> during our business hours (Mon-Fri, 9 AM - 5 PM).</p>
                 
                 <p style="margin-top: 20px;">Best regards,</p>
-                <p><strong>The Code Study Team</strong></p>
+                <p style="margin-top: 4px;"><strong>The CodeStudy Team</strong></p>
             </div>
             
             <div class="footer">
@@ -272,7 +298,7 @@ const otpTemplate = (otp) => {
                     </a>
                 </div>
                 
-                <p class="footer-text">Need help? <a href="mailto:support@codestudy.com" class="support-link">Contact our support team</a></p>
+                <p class="footer-text">Need more help? <a href="mailto:support@CodeStudy.com" class="support-link">Contact our support team</a></p>
                 <p class="footer-text">© 2025 CodeStudy. All rights reserved.</p>
                 <p class="footer-text" style="margin-top: 15px; font-size: 12px; color: #999;">
                     <a href="#" style="color: #666; margin: 0 10px;">Privacy Policy</a> | 
@@ -284,5 +310,3 @@ const otpTemplate = (otp) => {
     
     </html>`;
 };
-
-module.exports = otpTemplate;
