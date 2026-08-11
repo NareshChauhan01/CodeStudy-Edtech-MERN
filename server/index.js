@@ -1,10 +1,10 @@
 const express = require("express")
-const server = express()
+const app = express()
 
 const cartRoute = require("./routes/Cart")
 const userRoutes = require("./routes/User")
 const profileRoutes = require("./routes/Profile")
-const paymentRoutes = require("./routes/Payment")
+const paymentRoutes = require("./routes/Payments")
 const courseRoutes = require("./routes/Course")
 const contactUsRoute = require("./routes/contactUs")
 
@@ -22,16 +22,17 @@ const PORT = process.env.PORT
 database.connect()
 
 //middlewares
-server.use(express.json())
-server.use(cookieParser())
-server.use(
+app.use(express.json())
+app.use(cookieParser())
+app.use(
   cors({
-    origin: "*", // Allows all origins in production
+    // origin: "*", // Allows all origins in production
+    origin: "http://localhost:3000",
     credentials: true
   })
 );
 
-server.use(
+app.use(
   fileUpload({
     useTempFiles: true,
     tempFileDir: "/tmp"
@@ -42,12 +43,12 @@ server.use(
 cloudinaryConnect()
 
 // routes
-server.use("/api/v1", userRoutes)
-server.use("/api/v1", profileRoutes)
-server.use("/api/v1", paymentRoutes)
-server.use("/api/v1", cartRoute)
-server.use("/api/v1", courseRoutes)
-server.use("/api/v1", contactUsRoute)
+app.use("/api/v1/auth", userRoutes)
+app.use("/api/v1/profile", profileRoutes)
+app.use("/api/v1/payment", paymentRoutes)
+app.use("/api/v1/cart", cartRoute)
+app.use("/api/v1/course", courseRoutes)
+app.use("/api/v1/contact", contactUsRoute)
 
 //stich to routes
 // require("./routes/User")(server)
@@ -58,19 +59,23 @@ server.use("/api/v1", contactUsRoute)
 // require("./routes/contactUs")(server)
 
 //default route
-server.use("/", (req, res) => {
+app.use("/", (req, res) => {
   return res.json({
     success: true,
-    message: "Your server is up and running"
+    message: "Your server is up and running..."
   })
 })
 
+app.listen(PORT, () => {
+  console.log(`App is running ${PORT}`)
+})
+
 // Export your Express app for Vercel
-module.exports = server;
+// module.exports = app;
 
 // Make server listen conditionally (only in development)
-if (process.env.NODE_ENV !== 'production') {
-  server.listen(PORT, () => {
-    console.log(`Server is running at ${PORT}`);
-  });
-}
+// if (process.env.NODE_ENV !== 'production') {
+//   app.listen(PORT, () => {
+//     console.log(`Server is running at ${PORT}`);
+//   });
+// }
