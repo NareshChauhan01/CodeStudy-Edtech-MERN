@@ -4,8 +4,8 @@ function App() {
 
   return (
     <>
-      <div className='text-2xl'>Hello Naresh Welcome Back</div>
-      <div className='text-fuchsia-900'>Hello Jee i am back</div>
+      <div className='text-2xl bg-pink-200'>Hello Naresh Welcome Back</div>
+      <div className='text-pink-200'>Hello Jee i am back</div>
     </>
   )
 }
