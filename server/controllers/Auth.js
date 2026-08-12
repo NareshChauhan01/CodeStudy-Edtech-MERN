@@ -28,8 +28,8 @@ exports.sendOTP = async (req, res) => {
       //generate otp
       var otp = otpGenerator.generate(6, {
         specialChars: false,
-        // upperCaseAlphabets : false,
-        // lowerCaseAlphabets : false,
+        upperCaseAlphabets : false,
+        lowerCaseAlphabets : false,
       })
 
       // console.log(`OTP generated successfully 😊`)
@@ -40,8 +40,8 @@ exports.sendOTP = async (req, res) => {
       while (result) {
         otp = otpGenerator.generate(6, {
           specialChars: false,
-          // upperCaseAlphabets : false,
-          // lowerCaseAlphabets : false,
+          upperCaseAlphabets : false,
+          lowerCaseAlphabets : false,
         })
 
         result = await OTP.findOne({ otp: otp })
@@ -61,12 +61,12 @@ exports.sendOTP = async (req, res) => {
       })
     }
   }
-  catch (err) {
+  catch (error) {
     return res.status(500).json({
       success: false,
-      message: "Failed to send OTP!",
-      err: err.message
-    })
+      // message: "Failed to send OTP!",
+      error: error.message,
+    });
   }
 }
 

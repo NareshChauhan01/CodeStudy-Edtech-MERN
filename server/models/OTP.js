@@ -25,7 +25,7 @@ const otpSchema = new mongoose.Schema({
 async function sendVerificationMail(email, otp) {
   try {
     await mailSender(email, "Verification Email from CodeStudy", emailTemplate(otp))
-    console.log("Mail sent successfully: ", mailResponse)
+    // console.log("Mail sent successfully: ", mailResponse)
   }
   catch (error) {
     console.log("Getting error while sending mail!")
@@ -34,9 +34,8 @@ async function sendVerificationMail(email, otp) {
   }
 }
 
-otpSchema.pre("save", async function (next) {
+otpSchema.pre("save", async function () {
   await sendVerificationMail(this.email, this.otp)
-  next()
 })
 
 module.exports = mongoose.model("Otp", otpSchema)
