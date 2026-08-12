@@ -20,27 +20,31 @@ exports.updateProfile = async (req, res) => {
       lastName = "",
       dateOfBirth = "",
       about = "",
-      gender = "",
-      contactNumber = ""
+      contactNumber = "",
+      gender = ""
     } = req.body
 
+    const id = req.user.id;
     //find profile
-    const userDetails = await User.findById(req.user.id)
+    const userDetails = await User.findById(id);
+
     // console.log("userDetails is : ", userDetails)
     const profileDetails = await Profile.findById(userDetails.additionalDetails)
 
-    //validation
-    if (!firstName || !lastName || !gender || !dateOfBirth || !contactNumber || !userDetails) {
-      return res.status(400).json({
-        success: false,
-        message: "All fields are required!"
-      })
-    }
-
     //user details updation
-    userDetails.firstName = firstName
-    userDetails.lastName = lastName
-    await userDetails.save()
+    // userDetails.firstName = firstName
+    // userDetails.lastName = lastName
+    // await userDetails.save()
+
+    const user = await User.findByIdAndUpdate(
+      id,
+      {
+        firstName,
+        lastName,
+      },
+      { new: true }
+    )
+    // await user.save()
 
     //update profile
     profileDetails.dateOfBirth = dateOfBirth
@@ -50,16 +54,14 @@ exports.updateProfile = async (req, res) => {
     await profileDetails.save()   // update data in db
 
     //updated user details
-    const updatedUserDetails = await User.findById(req.user.id).populate(
-      {
-        path: "additionalDetails"
-      }
+    const updatedUserDetails = await User.findById(id).populate(
+      { path: "additionalDetails" }
     )
 
     //return res
     return res.status(200).json({
       success: true,
-      message: "Profile details updated successfully 😊",
+      message: "Profile details updated successfully",
       data: updatedUserDetails
     })
   }
