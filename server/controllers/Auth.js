@@ -28,8 +28,8 @@ exports.sendOTP = async (req, res) => {
       //generate otp
       var otp = otpGenerator.generate(6, {
         specialChars: false,
-        upperCaseAlphabets : false,
-        lowerCaseAlphabets : false,
+        upperCaseAlphabets: false,
+        lowerCaseAlphabets: false,
       })
 
       // console.log(`OTP generated successfully 😊`)
@@ -40,8 +40,8 @@ exports.sendOTP = async (req, res) => {
       while (result) {
         otp = otpGenerator.generate(6, {
           specialChars: false,
-          upperCaseAlphabets : false,
-          lowerCaseAlphabets : false,
+          upperCaseAlphabets: false,
+          lowerCaseAlphabets: false,
         })
 
         result = await OTP.findOne({ otp: otp })
@@ -110,6 +110,7 @@ exports.signUp = async (req, res) => {
       //OTP not found
       return res.status(400).json({
         success: false,
+        User,
         message: "OTP not found!"
       })
     }
@@ -133,7 +134,7 @@ exports.signUp = async (req, res) => {
     })
 
     //entry create in db
-    await User.create({
+    const user = await User.create({
       firstName,
       lastName,
       email,
@@ -149,6 +150,7 @@ exports.signUp = async (req, res) => {
     //return res
     return res.status(200).json({
       success: true,
+      user,
       message: "User is registered successfully 😁"
     })
   }

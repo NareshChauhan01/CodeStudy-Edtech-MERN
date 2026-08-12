@@ -164,7 +164,8 @@ exports.getAllUserDetails = async (req, res) => {
 // function to update profile picture of user
 exports.updateProfilePicture = async (req, res) => {
   try {
-    const displayPicture = req.files.profilePicture
+    const displayPicture = req.files.profilePicture;
+    console.log("display picture", displayPicture)
 
     const profilePic = await uploadImageToCloudinary(
       displayPicture,
@@ -178,12 +179,13 @@ exports.updateProfilePicture = async (req, res) => {
         success: false,
         meassge: "Failed to upload profile picture on cloudinary!"
       })
-    }
+    };
 
     const updatedProfile = await User.findByIdAndUpdate(
       req.user.id,
       { image: profilePic.secure_url },
-      { new: true }
+      // { new: true }
+      { returnDocument: "after" }
     ).populate({
       path: "additionalDetails"
     })
@@ -191,7 +193,7 @@ exports.updateProfilePicture = async (req, res) => {
     if (!updatedProfile) {
       return res.status(401).json({
         success: false,
-        message: "Failed to update profile image link to database!"
+        message: "Failed to update profile image link to database!",
       })
     }
 
@@ -202,10 +204,13 @@ exports.updateProfilePicture = async (req, res) => {
     })
   }
   catch (error) {
+    console.error("Error updating profile picture:", error);
+
     return res.status(500).json({
       success: false,
-      message: "Getting error in updating profile picture"
-    })
+      // message: "Getting error in updating profile picture",
+      error: error.message,
+    });
   }
 }
 
