@@ -12,9 +12,11 @@
     "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm run client\" \"npm run server\""
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
     "concurrently": "^10.0.4",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
