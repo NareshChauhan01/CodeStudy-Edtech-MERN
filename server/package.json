@@ -1,14 +1,14 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is my first full stack development",
   "main": "index.js",
   "scripts": {
     "start": "index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Naresh Chauhan",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
