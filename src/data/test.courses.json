@@ -1,0 +1,2528 @@
+[
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c289fb"
+    },
+    "courseName": "Artificial Intelligence",
+    "courseDescription": ";jklnwr",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc42"
+    },
+    "whatYouWillLearn": "jkl;ndhs",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c289ff"
+      }
+    ],
+    "ratingAndReviews": [],
+    "price": 561,
+    "thumbnail": "https://res.cloudinary.com/dqhv83qhg/image/upload/v1743606058/StudyNotion/og5epydxwpkjwr3owt2c.png",
+    "tag": [
+      "era"
+    ],
+    "category": {
+      "$oid": "67e94a98d32dd7871324fc5a"
+    },
+    "studentEnrolled": [],
+    "instructions": [
+      "thsd"
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-02T15:00:58.951Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ee8ba811dd4c80b10528f1"
+    },
+    "courseName": "web dev",
+    "courseDescription": "jhbsd",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc42"
+    },
+    "whatYouWillLearn": "JKEFWA",
+    "courseContent": [],
+    "ratingAndReviews": [],
+    "price": 51,
+    "thumbnail": "https://res.cloudinary.com/dqhv83qhg/image/upload/v1743686567/StudyNotion/rsdmdmoz33bof63jgkqb.jpg",
+    "tag": [
+      "qa"
+    ],
+    "category": {
+      "$oid": "67e94a36d32dd7871324fc51"
+    },
+    "studentEnrolled": [],
+    "instructions": [
+      "JKLR"
+    ],
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-04-03T13:22:48.007Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f0327fd0192a1fc09c3b2e"
+    },
+    "courseName": "Mastering Python",
+    "courseDescription": "Learn Python from scratch to advanced level, covering all major topics.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc42"
+    },
+    "whatYouWillLearn": "-> Learn Python from basics to advanced\r\n-> Hands-on projects and real-world applications\r\n-> Master automation, data science, and web scraping ",
+    "courseContent": [
+      {
+        "$oid": "67f0328ad0192a1fc09c3b32"
+      },
+      {
+        "$oid": "67f032efd0192a1fc09c3b36"
+      }
+    ],
+    "ratingAndReviews": [],
+    "price": 4999,
+    "thumbnail": "https://res.cloudinary.com/dqhv83qhg/image/upload/v1743794815/StudyNotion/aeflrsagswkssibs9fkh.jpg",
+    "tag": [
+      "Programming",
+      "Python",
+      "Automation"
+    ],
+    "category": {
+      "$oid": "67e94a1cd32dd7871324fc4e"
+    },
+    "studentEnrolled": [],
+    "instructions": [
+      "No prior programming experience needed",
+      "A computer with internet access",
+      "Willingness to learn and practice coding"
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-04T19:26:55.449Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f035f7d0192a1fc09c3b54"
+    },
+    "courseName": "Full Stack Web Development",
+    "courseDescription": "Become a full-stack developer with hands-on projects.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc42"
+    },
+    "whatYouWillLearn": "-> Master both frontend and backend development\r\n-> Build full-stack applications from scratch\r\n-> Work with modern technologies like React, Node.js, and MongoDB",
+    "courseContent": [
+      {
+        "$oid": "67f03601d0192a1fc09c3b58"
+      },
+      {
+        "$oid": "67f0360fd0192a1fc09c3b5c"
+      }
+    ],
+    "ratingAndReviews": [],
+    "price": 5999,
+    "thumbnail": "https://res.cloudinary.com/dqhv83qhg/image/upload/v1743795704/StudyNotion/xqlmz9vt8xx2xf5gqpij.jpg",
+    "tag": [
+      "web development",
+      "full stack",
+      "backend",
+      "fronted",
+      "website"
+    ],
+    "category": {
+      "$oid": "67e94a36d32dd7871324fc51"
+    },
+    "studentEnrolled": [],
+    "instructions": [
+      "Basic understanding of computers",
+      "Desire to learn web development",
+      "A text editor (VS Code recommended)"
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-04T19:41:43.873Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f037c0d0192a1fc09c3b7a"
+    },
+    "courseName": "Android App Development",
+    "courseDescription": "Learn to develop Android applications using Java and Kotlin.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc42"
+    },
+    "whatYouWillLearn": "-> Build real-world Android apps\r\n-> Learn Java and Kotlin\r\n-> Understand UI/UX for mobile apps",
+    "courseContent": [
+      {
+        "$oid": "67f037dad0192a1fc09c3b7e"
+      }
+    ],
+    "ratingAndReviews": [],
+    "price": 3999,
+    "thumbnail": "https://res.cloudinary.com/dqhv83qhg/image/upload/v1743796160/StudyNotion/szalfkhg2td8wdm2cdsj.jpg",
+    "tag": [
+      "android development",
+      "android"
+    ],
+    "category": {
+      "$oid": "67e94a62d32dd7871324fc54"
+    },
+    "studentEnrolled": [],
+    "instructions": [
+      "Basic programming knowledge",
+      "Android Studio installed",
+      "A computer with internet access"
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-04T19:49:20.178Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f038b1d0192a1fc09c3b98"
+    },
+    "courseName": "Blockchain Essentials",
+    "courseDescription": "Understand blockchain technology and its applications.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc42"
+    },
+    "whatYouWillLearn": "-> Learn how blockchain works\r\n-> Understand smart contracts\r\n-> Build decentralized applications",
+    "courseContent": [
+      {
+        "$oid": "67f038b7d0192a1fc09c3b9c"
+      }
+    ],
+    "ratingAndReviews": [],
+    "price": 4599,
+    "thumbnail": "https://res.cloudinary.com/dqhv83qhg/image/upload/v1743796402/StudyNotion/gl2nmvxboujf468auzqy.jpg",
+    "tag": [
+      "blockchain"
+    ],
+    "category": {
+      "$oid": "67e94a7ad32dd7871324fc57"
+    },
+    "studentEnrolled": [],
+    "instructions": [
+      "Basic programming skills",
+      "Knowledge of cryptocurrencies (optional)"
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-04T19:53:21.949Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f03974d0192a1fc09c3bb6"
+    },
+    "courseName": "Artificial Intelligence Basics",
+    "courseDescription": "Learn the foundations of Artificial Intelligence and its applications.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc42"
+    },
+    "whatYouWillLearn": "Understand AI and Machine Learning",
+    "courseContent": [
+      {
+        "$oid": "67f0397cd0192a1fc09c3bba"
+      }
+    ],
+    "ratingAndReviews": [],
+    "price": 5999,
+    "thumbnail": "https://res.cloudinary.com/dqhv83qhg/image/upload/v1743796597/StudyNotion/upb2vymi3zrfyqma62eo.jpg",
+    "tag": [
+      "ai"
+    ],
+    "category": {
+      "$oid": "67e94a98d32dd7871324fc5a"
+    },
+    "studentEnrolled": [],
+    "instructions": [
+      "Interest in AI and data science"
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-04T19:56:36.875Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f039f7d0192a1fc09c3bd4"
+    },
+    "courseName": "Cybersecurity Fundamentals",
+    "courseDescription": "Learn the basics of cybersecurity and how to protect data.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc42"
+    },
+    "whatYouWillLearn": "Understand cybersecurity threats",
+    "courseContent": [
+      {
+        "$oid": "67f03a02d0192a1fc09c3bd8"
+      }
+    ],
+    "ratingAndReviews": [],
+    "price": 4999,
+    "thumbnail": "https://res.cloudinary.com/dqhv83qhg/image/upload/v1743796728/StudyNotion/gzqevpo47u4bhfywleug.jpg",
+    "tag": [
+      "cyber security"
+    ],
+    "category": {
+      "$oid": "67e94b19d32dd7871324fc66"
+    },
+    "studentEnrolled": [],
+    "instructions": [
+      "Interest in security and privacy"
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-04T19:58:47.671Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a00"
+    },
+    "courseName": "Introduction to Machine Learning",
+    "courseDescription": "Explore the basics of machine learning algorithms and their applications.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc43"
+    },
+    "whatYouWillLearn": "Supervised and unsupervised learning techniques, model evaluation.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a10"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a20"
+      }
+    ],
+    "price": 4500,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/ml_course.png",
+    "tag": [
+      "machine learning"
+    ],
+    "category": {
+      "$oid": "67e94a1cd32dd7871324fc4e"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a30"
+      }
+    ],
+    "instructions": [
+      "Basic knowledge of statistics and programming."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a01"
+    },
+    "courseName": "Web Development with Django",
+    "courseDescription": "Learn to build robust web applications using Django framework.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc44"
+    },
+    "whatYouWillLearn": "Django models, views, templates, and deployment.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a11"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a21"
+      }
+    ],
+    "price": 5000,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/django_course.png",
+    "tag": [
+      "web development"
+    ],
+    "category": {
+      "$oid": "67e94a1cd32dd7871324fc4e"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a31"
+      }
+    ],
+    "instructions": [
+      "Familiarity with Python programming."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T12:10:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a02"
+    },
+    "courseName": "Data Visualization with Tableau",
+    "courseDescription": "Master the art of creating interactive and insightful data visualizations using Tableau.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc45"
+    },
+    "whatYouWillLearn": "Building dashboards, connecting to data sources, and sharing insights.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a12"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a22"
+      }
+    ],
+    "price": 4000,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/tableau_course.png",
+    "tag": [
+      "data visualization"
+    ],
+    "category": {
+      "$oid": "67e94ab1d32dd7871324fc5d"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a32"
+      }
+    ],
+    "instructions": [
+      "Basic understanding of data analysis."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T12:20:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a03"
+    },
+    "courseName": "Cybersecurity Fundamentals",
+    "courseDescription": "Gain foundational knowledge in cybersecurity principles and practices.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc46"
+    },
+    "whatYouWillLearn": "Threat analysis, risk management, and security protocols.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a13"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a23"
+      }
+    ],
+    "price": 5500,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/cybersecurity_course.png",
+    "tag": [
+      "cybersecurity"
+    ],
+    "category": {
+      "$oid": "67e94b19d32dd7871324fc66"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a33"
+      }
+    ],
+    "instructions": [
+      "Interest in information security."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T12:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a05"
+    },
+    "courseName": "DevOps Essentials",
+    "courseDescription": "Learn the core principles of DevOps and CI/CD pipelines.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc48"
+    },
+    "whatYouWillLearn": "Jenkins, Git, Docker, continuous integration and deployment.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a15"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a25"
+      }
+    ],
+    "price": 525,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/devops_course.png",
+    "tag": [
+      "devops"
+    ],
+    "category": {
+      "$oid": "67e94af2d32dd7871324fc63"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a35"
+      }
+    ],
+    "instructions": [
+      "Basic Linux knowledge recommended."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T12:50:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a06"
+    },
+    "courseName": "Introduction to Blockchain",
+    "courseDescription": "Understand how blockchain technology works and its applications.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc49"
+    },
+    "whatYouWillLearn": "Cryptography, smart contracts, decentralized apps.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a16"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a26"
+      }
+    ],
+    "price": 590,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/blockchain_course.png",
+    "tag": [
+      "blockchain"
+    ],
+    "category": {
+      "$oid": "67e94a7ad32dd7871324fc57"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a36"
+      }
+    ],
+    "instructions": [
+      "General tech awareness."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T13:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a07"
+    },
+    "courseName": "Cloud Security Fundamentals",
+    "courseDescription": "Securing cloud infrastructure with best practices.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc50"
+    },
+    "whatYouWillLearn": "IAM, encryption, network security in the cloud.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a17"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a27"
+      }
+    ],
+    "price": 520,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/cloud_security.png",
+    "tag": [
+      "cloud",
+      "security"
+    ],
+    "category": {
+      "$oid": "67e94ad8d32dd7871324fc60"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a37"
+      }
+    ],
+    "instructions": [
+      "Cloud basics knowledge required."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T13:10:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a10"
+    },
+    "courseName": "CI/CD with Jenkins",
+    "courseDescription": "Implement continuous integration and delivery using Jenkins.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc56"
+    },
+    "whatYouWillLearn": "Jenkins pipelines, automation, and deployment.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a1d"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a2d"
+      }
+    ],
+    "price": 5900,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/jenkins.png",
+    "tag": [
+      "devops",
+      "jenkins"
+    ],
+    "category": {
+      "$oid": "67e94af2d32dd7871324fc63"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a3d"
+      }
+    ],
+    "instructions": [
+      "Basic DevOps knowledge recommended."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T14:10:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a08"
+    },
+    "courseName": "Monitoring with Prometheus and Grafana",
+    "courseDescription": "Set up monitoring and alerting with Prometheus and Grafana.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc57"
+    },
+    "whatYouWillLearn": "Dashboards, metrics, and alerting strategies.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a1e"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a2e"
+      }
+    ],
+    "price": 6100,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/prometheus_grafana.png",
+    "tag": [
+      "monitoring",
+      "grafana",
+      "prometheus"
+    ],
+    "category": {
+      "$oid": "67e94af2d32dd7871324fc63"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a3e"
+      }
+    ],
+    "instructions": [
+      "Basic understanding of Linux systems."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T14:20:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a09"
+    },
+    "courseName": "Infrastructure as Code with Terraform",
+    "courseDescription": "Automate infrastructure provisioning using Terraform.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc58"
+    },
+    "whatYouWillLearn": "Terraform syntax, modules, and state management.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a1f"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a2f"
+      }
+    ],
+    "price": 6300,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/terraform.png",
+    "tag": [
+      "terraform",
+      "iac",
+      "devops"
+    ],
+    "category": {
+      "$oid": "67e94af2d32dd7871324fc63"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a3f"
+      }
+    ],
+    "instructions": [
+      "Cloud fundamentals recommended."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T14:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a0a"
+    },
+    "courseName": "GitOps with ArgoCD",
+    "courseDescription": "Manage Kubernetes deployments using GitOps principles.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc59"
+    },
+    "whatYouWillLearn": "ArgoCD setup, Git-driven deployments, best practices.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a20"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a30"
+      }
+    ],
+    "price": 6250,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/argocd.png",
+    "tag": [
+      "argocd",
+      "gitops",
+      "devops"
+    ],
+    "category": {
+      "$oid": "67e94af2d32dd7871324fc63"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a40"
+      }
+    ],
+    "instructions": [
+      "Knowledge of Git and Kubernetes needed."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T14:40:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a0b"
+    },
+    "courseName": "Advanced Docker for DevOps",
+    "courseDescription": "Master Docker with advanced use cases for DevOps.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc60"
+    },
+    "whatYouWillLearn": "Dockerfiles, multi-stage builds, volumes, and networks.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a21"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a31"
+      }
+    ],
+    "price": 6050,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/advanced_docker.png",
+    "tag": [
+      "docker",
+      "containers",
+      "devops"
+    ],
+    "category": {
+      "$oid": "67e94af2d32dd7871324fc63"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a41"
+      }
+    ],
+    "instructions": [
+      "Familiarity with Docker basics."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T14:50:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a0c"
+    },
+    "courseName": "AWS Cloud Practitioner Essentials",
+    "courseDescription": "Get started with the AWS cloud platform.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc61"
+    },
+    "whatYouWillLearn": "Cloud concepts, AWS services, billing, and security.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a22"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a32"
+      }
+    ],
+    "price": 580,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/aws.png",
+    "tag": [
+      "aws",
+      "cloud"
+    ],
+    "category": {
+      "$oid": "67e94ad8d32dd7871324fc60"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a42"
+      }
+    ],
+    "instructions": [
+      "No prior cloud experience needed."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T15:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a0d"
+    },
+    "courseName": "Google Cloud Fundamentals",
+    "courseDescription": "Introduction to GCP services and cloud infrastructure.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc62"
+    },
+    "whatYouWillLearn": "GCP console, services, and IAM.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a23"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a33"
+      }
+    ],
+    "price": 595,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/gcp.png",
+    "tag": [
+      "gcp",
+      "cloud"
+    ],
+    "category": {
+      "$oid": "67e94ad8d32dd7871324fc60"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a43"
+      }
+    ],
+    "instructions": [
+      "Basic IT knowledge preferred."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T15:10:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a0e"
+    },
+    "courseName": "Azure Fundamentals",
+    "courseDescription": "Understand core Azure services and solutions.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc63"
+    },
+    "whatYouWillLearn": "Azure portal, compute, storage, networking.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a24"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a34"
+      }
+    ],
+    "price": 600,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/azure.png",
+    "tag": [
+      "azure",
+      "cloud"
+    ],
+    "category": {
+      "$oid": "67e94ad8d32dd7871324fc60"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a44"
+      }
+    ],
+    "instructions": [
+      "Ideal for beginners."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T15:20:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a0f"
+    },
+    "courseName": "Deploying Applications on AWS",
+    "courseDescription": "Learn how to deploy scalable apps on AWS.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc64"
+    },
+    "whatYouWillLearn": "EC2, S3, RDS, Elastic Beanstalk.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a25"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a35"
+      }
+    ],
+    "price": 620,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/deploy_aws.png",
+    "tag": [
+      "aws",
+      "deployment"
+    ],
+    "category": {
+      "$oid": "67e94ad8d32dd7871324fc60"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a45"
+      }
+    ],
+    "instructions": [
+      "Experience with web development helpful."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T15:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a11"
+    },
+    "courseName": "Cloud Security Fundamentals",
+    "courseDescription": "Explore security practices in cloud environments.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc65"
+    },
+    "whatYouWillLearn": "IAM, encryption, cloud compliance.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a26"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a36"
+      }
+    ],
+    "price": 640,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/cloud_security.png",
+    "tag": [
+      "cloud",
+      "security"
+    ],
+    "category": {
+      "$oid": "67e94ad8d32dd7871324fc60"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a46"
+      }
+    ],
+    "instructions": [
+      "Recommended: networking and security basics."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T15:40:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a16"
+    },
+    "courseName": "Python for Beginners",
+    "courseDescription": "Learn Python from scratch, no experience needed.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc70"
+    },
+    "whatYouWillLearn": "Variables, loops, functions, and basic programming.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a27"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a37"
+      }
+    ],
+    "price": 550,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/python_beginners.png",
+    "tag": [
+      "python",
+      "beginners"
+    ],
+    "category": {
+      "$oid": "67e94a1cd32dd7871324fc4e"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a47"
+      }
+    ],
+    "instructions": [
+      "No prior programming knowledge required."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T16:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a12"
+    },
+    "courseName": "Object-Oriented Programming in Python",
+    "courseDescription": "Master OOP principles using Python.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc71"
+    },
+    "whatYouWillLearn": "Classes, objects, inheritance, and encapsulation.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a28"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a38"
+      }
+    ],
+    "price": 570,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/oop_python.png",
+    "tag": [
+      "python",
+      "oop"
+    ],
+    "category": {
+      "$oid": "67e94a1cd32dd7871324fc4e"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a48"
+      }
+    ],
+    "instructions": [
+      "Python basics required."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T16:10:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a13"
+    },
+    "courseName": "Python for Data Analysis",
+    "courseDescription": "Analyze data efficiently with Python libraries.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc72"
+    },
+    "whatYouWillLearn": "Pandas, NumPy, data visualization.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a29"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a39"
+      }
+    ],
+    "price": 600,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/data_analysis.png",
+    "tag": [
+      "python",
+      "data"
+    ],
+    "category": {
+      "$oid": "67e94a1cd32dd7871324fc4e"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a49"
+      }
+    ],
+    "instructions": [
+      "Familiarity with Python syntax preferred."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T16:20:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a14"
+    },
+    "courseName": "Python Web Development with Flask",
+    "courseDescription": "Build web apps using the Flask framework.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc73"
+    },
+    "whatYouWillLearn": "Routing, templates, forms, and deployment.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a2a"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a3a"
+      }
+    ],
+    "price": 620,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/flask.png",
+    "tag": [
+      "python",
+      "flask",
+      "web"
+    ],
+    "category": {
+      "$oid": "67e94a1cd32dd7871324fc4e"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a4a"
+      }
+    ],
+    "instructions": [
+      "Python and HTML knowledge recommended."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T16:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a15"
+    },
+    "courseName": "Python for Automation",
+    "courseDescription": "Automate tasks and workflows using Python.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc74"
+    },
+    "whatYouWillLearn": "Scripting, web scraping, file handling, and APIs.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a2b"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a3b"
+      }
+    ],
+    "price": 610,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/python_automation.png",
+    "tag": [
+      "python",
+      "automation"
+    ],
+    "category": {
+      "$oid": "67e94a1cd32dd7871324fc4e"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a4b"
+      }
+    ],
+    "instructions": [
+      "Good for intermediate Python users."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T16:40:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a21"
+    },
+    "courseName": "HTML & CSS Crash Course",
+    "courseDescription": "Master the basics of web design with HTML and CSS.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc80"
+    },
+    "whatYouWillLearn": "HTML tags, CSS styling, page layout and design.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a2c"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a3c"
+      }
+    ],
+    "price": 500,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/html_css.png",
+    "tag": [
+      "html",
+      "css",
+      "web"
+    ],
+    "category": {
+      "$oid": "67e94a36d32dd7871324fc51"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a4c"
+      }
+    ],
+    "instructions": [
+      "No experience needed."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T17:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a17"
+    },
+    "courseName": "JavaScript Essentials",
+    "courseDescription": "Learn JavaScript to add interactivity to websites.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc81"
+    },
+    "whatYouWillLearn": "Variables, functions, DOM, events.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a2d"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a3d"
+      }
+    ],
+    "price": 520,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/javascript.png",
+    "tag": [
+      "javascript",
+      "web"
+    ],
+    "category": {
+      "$oid": "67e94a36d32dd7871324fc51"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a4d"
+      }
+    ],
+    "instructions": [
+      "Basic HTML/CSS knowledge helpful."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T17:10:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a18"
+    },
+    "courseName": "React.js Fundamentals",
+    "courseDescription": "Build modern UIs using React.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc82"
+    },
+    "whatYouWillLearn": "JSX, components, props, state, hooks.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a2e"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a3e"
+      }
+    ],
+    "price": 620,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/reactjs.png",
+    "tag": [
+      "react",
+      "web"
+    ],
+    "category": {
+      "$oid": "67e94a36d32dd7871324fc51"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a4e"
+      }
+    ],
+    "instructions": [
+      "JavaScript basics required."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T17:20:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a19"
+    },
+    "courseName": "Full Stack Web Development",
+    "courseDescription": "Become a full stack developer using MERN stack.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc83"
+    },
+    "whatYouWillLearn": "MongoDB, Express, React, Node.js.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a2f"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a3f"
+      }
+    ],
+    "price": 700,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/fullstack.png",
+    "tag": [
+      "mern",
+      "fullstack"
+    ],
+    "category": {
+      "$oid": "67e94a36d32dd7871324fc51"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a4f"
+      }
+    ],
+    "instructions": [
+      "Basic JS/HTML/CSS required."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T17:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a1a"
+    },
+    "courseName": "Responsive Web Design",
+    "courseDescription": "Create websites that look great on any device.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc84"
+    },
+    "whatYouWillLearn": "Media queries, flexbox, CSS grid.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a30"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a40"
+      }
+    ],
+    "price": 580,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/responsive.png",
+    "tag": [
+      "responsive",
+      "css",
+      "web"
+    ],
+    "category": {
+      "$oid": "67e94a36d32dd7871324fc51"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a50"
+      }
+    ],
+    "instructions": [
+      "HTML and CSS knowledge needed."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T17:40:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a1b"
+    },
+    "courseName": "Android Development with Kotlin",
+    "courseDescription": "Learn how to build Android apps using Kotlin.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc90"
+    },
+    "whatYouWillLearn": "Kotlin syntax, Android Studio, layouts, navigation.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a31"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a41"
+      }
+    ],
+    "price": 650,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/kotlin_android.png",
+    "tag": [
+      "android",
+      "kotlin"
+    ],
+    "category": {
+      "$oid": "67e94a62d32dd7871324fc54"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a51"
+      }
+    ],
+    "instructions": [
+      "Basic programming knowledge helpful."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T18:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a1c"
+    },
+    "courseName": "Mastering Android Jetpack",
+    "courseDescription": "Explore Jetpack components for modern Android apps.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc91"
+    },
+    "whatYouWillLearn": "Navigation, ViewModel, LiveData, Room, WorkManager.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a32"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a42"
+      }
+    ],
+    "price": 690,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/jetpack.png",
+    "tag": [
+      "android",
+      "jetpack"
+    ],
+    "category": {
+      "$oid": "67e94a62d32dd7871324fc54"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a52"
+      }
+    ],
+    "instructions": [
+      "Intermediate Android knowledge needed."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T18:10:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a1d"
+    },
+    "courseName": "Android App UI Design",
+    "courseDescription": "Design beautiful and responsive Android UIs.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc92"
+    },
+    "whatYouWillLearn": "Material Design, XML layouts, animations.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a33"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a43"
+      }
+    ],
+    "price": 580,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/android_ui.png",
+    "tag": [
+      "android",
+      "design"
+    ],
+    "category": {
+      "$oid": "67e94a62d32dd7871324fc54"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a53"
+      }
+    ],
+    "instructions": [
+      "Basic Android experience required."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T18:20:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a1e"
+    },
+    "courseName": "Android App Deployment",
+    "courseDescription": "Learn how to publish your Android app to Google Play.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc93"
+    },
+    "whatYouWillLearn": "App signing, Play Store policies, versioning, releases.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a34"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a44"
+      }
+    ],
+    "price": 610,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/android_deploy.png",
+    "tag": [
+      "android",
+      "deployment"
+    ],
+    "category": {
+      "$oid": "67e94a62d32dd7871324fc54"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a54"
+      }
+    ],
+    "instructions": [
+      "Completed app ready for deployment."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T18:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a1f"
+    },
+    "courseName": "Firebase Integration in Android",
+    "courseDescription": "Integrate Firebase services into Android apps.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc94"
+    },
+    "whatYouWillLearn": "Firebase Auth, Firestore, Analytics, Cloud Messaging.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a35"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a45"
+      }
+    ],
+    "price": 630,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/firebase_android.png",
+    "tag": [
+      "android",
+      "firebase"
+    ],
+    "category": {
+      "$oid": "67e94a62d32dd7871324fc54"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a55"
+      }
+    ],
+    "instructions": [
+      "Firebase account and Android basics required."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T18:40:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a25"
+    },
+    "courseName": "Blockchain Basics",
+    "courseDescription": "Understand the fundamentals of blockchain technology.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc95"
+    },
+    "whatYouWillLearn": "Distributed ledgers, consensus algorithms, decentralization.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a36"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a46"
+      }
+    ],
+    "price": 600,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/blockchain_basics.png",
+    "tag": [
+      "blockchain",
+      "fundamentals"
+    ],
+    "category": {
+      "$oid": "67e94a7ad32dd7871324fc57"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a56"
+      }
+    ],
+    "instructions": [
+      "Curiosity to learn is all you need."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T19:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a26"
+    },
+    "courseName": "Ethereum and Smart Contracts",
+    "courseDescription": "Develop decentralized applications using Ethereum.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc96"
+    },
+    "whatYouWillLearn": "Solidity, smart contracts, DApps, gas fees.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a37"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a47"
+      }
+    ],
+    "price": 720,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/ethereum_dapps.png",
+    "tag": [
+      "ethereum",
+      "solidity"
+    ],
+    "category": {
+      "$oid": "67e94a7ad32dd7871324fc57"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a57"
+      }
+    ],
+    "instructions": [
+      "Basic coding skills recommended."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T19:10:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a22"
+    },
+    "courseName": "Hyperledger for Enterprises",
+    "courseDescription": "Learn how to use Hyperledger for business solutions.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc97"
+    },
+    "whatYouWillLearn": "Hyperledger Fabric, chaincode, private networks.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a38"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a48"
+      }
+    ],
+    "price": 750,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/hyperledger.png",
+    "tag": [
+      "hyperledger",
+      "enterprise"
+    ],
+    "category": {
+      "$oid": "67e94a7ad32dd7871324fc57"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a58"
+      }
+    ],
+    "instructions": [
+      "Understanding of blockchain basics required."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T19:20:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a23"
+    },
+    "courseName": "Blockchain Security Essentials",
+    "courseDescription": "Understand the key security principles in blockchain networks.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc98"
+    },
+    "whatYouWillLearn": "Cryptography, 51% attack, wallet security, consensus safety.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a39"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a49"
+      }
+    ],
+    "price": 670,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/blockchain_security.png",
+    "tag": [
+      "security",
+      "blockchain"
+    ],
+    "category": {
+      "$oid": "67e94a7ad32dd7871324fc57"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a59"
+      }
+    ],
+    "instructions": [
+      "Blockchain fundamentals needed."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T19:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a24"
+    },
+    "courseName": "NFTs and the Future of Ownership",
+    "courseDescription": "Learn how NFTs are changing digital ownership and art.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc99"
+    },
+    "whatYouWillLearn": "Minting NFTs, smart contracts, marketplaces.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a3a"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a4a"
+      }
+    ],
+    "price": 710,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/nfts.png",
+    "tag": [
+      "nft",
+      "ownership",
+      "crypto"
+    ],
+    "category": {
+      "$oid": "67e94a7ad32dd7871324fc57"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a5a"
+      }
+    ],
+    "instructions": [
+      "Basic blockchain understanding useful."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T19:40:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28ad1"
+    },
+    "courseName": "Introduction to Artificial Intelligence",
+    "courseDescription": "Learn the core principles and applications of AI.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc9a"
+    },
+    "whatYouWillLearn": "AI history, machine learning basics, intelligent agents.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a3b"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a4b"
+      }
+    ],
+    "price": 720,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/intro_ai.png",
+    "tag": [
+      "ai",
+      "fundamentals"
+    ],
+    "category": {
+      "$oid": "67e94a98d32dd7871324fc5a"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a5b"
+      }
+    ],
+    "instructions": [
+      "Basic math and logic understanding."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T19:50:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28ad2"
+    },
+    "courseName": "AI with Python",
+    "courseDescription": "Build AI-powered programs using Python libraries.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc9b"
+    },
+    "whatYouWillLearn": "NumPy, pandas, scikit-learn, automation.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a3c"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a4c"
+      }
+    ],
+    "price": 780,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/ai_python.png",
+    "tag": [
+      "ai",
+      "python"
+    ],
+    "category": {
+      "$oid": "67e94a98d32dd7871324fc5a"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a5c"
+      }
+    ],
+    "instructions": [
+      "Python basics required."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T20:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a27"
+    },
+    "courseName": "AI for Robotics",
+    "courseDescription": "Explore how AI enhances robotic systems.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc9c"
+    },
+    "whatYouWillLearn": "Path planning, control systems, machine perception.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a3d"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a4d"
+      }
+    ],
+    "price": 820,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/ai_robotics.png",
+    "tag": [
+      "ai",
+      "robotics"
+    ],
+    "category": {
+      "$oid": "67e94a98d32dd7871324fc5a"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a5d"
+      }
+    ],
+    "instructions": [
+      "Engineering or robotics background recommended."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T20:10:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a28"
+    },
+    "courseName": "AI for Healthcare",
+    "courseDescription": "Discover how AI is revolutionizing the healthcare industry.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc9d"
+    },
+    "whatYouWillLearn": "Medical image analysis, diagnosis algorithms, health data mining.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a3e"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a4e"
+      }
+    ],
+    "price": 850,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/ai_healthcare.png",
+    "tag": [
+      "ai",
+      "healthcare"
+    ],
+    "category": {
+      "$oid": "67e94a98d32dd7871324fc5a"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a5e"
+      }
+    ],
+    "instructions": [
+      "Basic understanding of healthcare data is a plus."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T20:20:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a29"
+    },
+    "courseName": "Conversational AI & Chatbots",
+    "courseDescription": "Create intelligent chatbots and virtual assistants.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc9e"
+    },
+    "whatYouWillLearn": "Natural language processing, intents, dialogue systems.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a3f"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a4f"
+      }
+    ],
+    "price": 790,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/ai_chatbot.png",
+    "tag": [
+      "ai",
+      "chatbot"
+    ],
+    "category": {
+      "$oid": "67e94a98d32dd7871324fc5a"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a5f"
+      }
+    ],
+    "instructions": [
+      "Interest in NLP and Python basics helpful."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T20:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a2a"
+    },
+    "courseName": "Data Science Foundations",
+    "courseDescription": "Master the essential concepts of data science.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fc9f"
+    },
+    "whatYouWillLearn": "Statistics, data wrangling, exploratory analysis.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a40"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a50"
+      }
+    ],
+    "price": 680,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/data_science_basics.png",
+    "tag": [
+      "data science",
+      "foundations"
+    ],
+    "category": {
+      "$oid": "67e94ab1d32dd7871324fc5d"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a60"
+      }
+    ],
+    "instructions": [
+      "Basic math and programming experience."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T20:40:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a2b"
+    },
+    "courseName": "Data Science with R",
+    "courseDescription": "Use R programming for statistical computing and graphics.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fca0"
+    },
+    "whatYouWillLearn": "Data manipulation, visualization, R libraries.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a41"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a51"
+      }
+    ],
+    "price": 700,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/data_science_r.png",
+    "tag": [
+      "data science",
+      "R"
+    ],
+    "category": {
+      "$oid": "67e94ab1d32dd7871324fc5d"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a61"
+      }
+    ],
+    "instructions": [
+      "No prior R knowledge required."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T20:50:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a2c"
+    },
+    "courseName": "Data Visualization Mastery",
+    "courseDescription": "Tell powerful stories with data using visual tools.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fca1"
+    },
+    "whatYouWillLearn": "Charts, dashboards, Tableau, Power BI.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a42"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a52"
+      }
+    ],
+    "price": 760,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/data_visualization.png",
+    "tag": [
+      "data science",
+      "visualization"
+    ],
+    "category": {
+      "$oid": "67e94ab1d32dd7871324fc5d"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a62"
+      }
+    ],
+    "instructions": [
+      "Familiarity with datasets helpful."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T21:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a2d"
+    },
+    "courseName": "Big Data Analytics",
+    "courseDescription": "Explore big data tools and techniques for analysis.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fca2"
+    },
+    "whatYouWillLearn": "Hadoop, Spark, real-time data processing.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a43"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a53"
+      }
+    ],
+    "price": 830,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/big_data.png",
+    "tag": [
+      "data science",
+      "big data"
+    ],
+    "category": {
+      "$oid": "67e94ab1d32dd7871324fc5d"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a63"
+      }
+    ],
+    "instructions": [
+      "Knowledge of SQL and programming is a plus."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T21:10:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a2e"
+    },
+    "courseName": "Applied Machine Learning for Data Science",
+    "courseDescription": "Use machine learning in real-world data science projects.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fca3"
+    },
+    "whatYouWillLearn": "Supervised learning, model tuning, real-world case studies.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a44"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a54"
+      }
+    ],
+    "price": 880,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/applied_ml.png",
+    "tag": [
+      "data science",
+      "machine learning"
+    ],
+    "category": {
+      "$oid": "67e94ab1d32dd7871324fc5d"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a64"
+      }
+    ],
+    "instructions": [
+      "Experience with Python is required."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T21:20:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a2f"
+    },
+    "courseName": "Introduction to Cybersecurity",
+    "courseDescription": "Understand the fundamentals of cybersecurity and threat management.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fca4"
+    },
+    "whatYouWillLearn": "Security principles, threat models, basic defense techniques.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a45"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a55"
+      }
+    ],
+    "price": 590,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/cyber_intro.png",
+    "tag": [
+      "cybersecurity",
+      "fundamentals"
+    ],
+    "category": {
+      "$oid": "67e94b19d32dd7871324fc66"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a65"
+      }
+    ],
+    "instructions": [
+      "No prior experience required."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T21:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a30"
+    },
+    "courseName": "Network Security Essentials",
+    "courseDescription": "Learn how to secure computer networks and detect vulnerabilities.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fca5"
+    },
+    "whatYouWillLearn": "Firewalls, IDS/IPS, encryption, threat mitigation.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a46"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a56"
+      }
+    ],
+    "price": 640,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/network_security.png",
+    "tag": [
+      "cybersecurity",
+      "network"
+    ],
+    "category": {
+      "$oid": "67e94b19d32dd7871324fc66"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a66"
+      }
+    ],
+    "instructions": [
+      "Familiarity with computer networks."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T21:40:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a31"
+    },
+    "courseName": "Ethical Hacking and Penetration Testing",
+    "courseDescription": "Discover vulnerabilities through ethical hacking techniques.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fca6"
+    },
+    "whatYouWillLearn": "Reconnaissance, scanning, exploitation, post-exploitation.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a47"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a57"
+      }
+    ],
+    "price": 720,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/ethical_hacking.png",
+    "tag": [
+      "cybersecurity",
+      "ethical hacking"
+    ],
+    "category": {
+      "$oid": "67e94b19d32dd7871324fc66"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a67"
+      }
+    ],
+    "instructions": [
+      "Basic Linux and networking knowledge required."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T21:50:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a32"
+    },
+    "courseName": "Digital Forensics Fundamentals",
+    "courseDescription": "Explore the tools and methods used in digital investigations.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fca7"
+    },
+    "whatYouWillLearn": "Data recovery, evidence handling, forensic tools.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a48"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a58"
+      }
+    ],
+    "price": 700,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/digital_forensics.png",
+    "tag": [
+      "cybersecurity",
+      "forensics"
+    ],
+    "category": {
+      "$oid": "67e94b19d32dd7871324fc66"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a68"
+      }
+    ],
+    "instructions": [
+      "Good analytical and attention-to-detail skills."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T22:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67ed512a19717ee987c28a33"
+    },
+    "courseName": "Cloud Security and Compliance",
+    "courseDescription": "Understand cloud platform security and regulatory compliance.",
+    "instructor": {
+      "$oid": "67e94944d32dd7871324fca8"
+    },
+    "whatYouWillLearn": "IAM, encryption in cloud, governance.",
+    "courseContent": [
+      {
+        "$oid": "67ed513219717ee987c28a49"
+      }
+    ],
+    "ratingAndReviews": [
+      {
+        "$oid": "67ed513219717ee987c28a59"
+      }
+    ],
+    "price": 770,
+    "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1743606058/StudyNotion/cloud_security.png",
+    "tag": [
+      "cybersecurity",
+      "cloud"
+    ],
+    "category": {
+      "$oid": "67e94b19d32dd7871324fc66"
+    },
+    "studentEnrolled": [
+      {
+        "$oid": "67ed513219717ee987c28a69"
+      }
+    ],
+    "instructions": [
+      "Basic understanding of cloud platforms is helpful."
+    ],
+    "status": "Published",
+    "createdAt": {
+      "$date": "2025-04-06T22:10:00.000Z"
+    },
+    "__v": 0
+  }
+]

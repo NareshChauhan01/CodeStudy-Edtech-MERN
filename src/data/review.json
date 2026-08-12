@@ -1,0 +1,102 @@
+[
+    {
+        "user": {
+            "$oid": "67e94944d32dd7871324fb01"
+        },
+        "course": {
+            "$oid": "67ed512a19717ee987c28b01"
+        },
+        "rating": 5,
+        "review": "Incredible course! Explained complex topics very clearly."
+    },
+    {
+        "user": {
+            "$oid": "67e94944d32dd7871324fb02"
+        },
+        "course": {
+            "$oid": "67ed512a19717ee987c28b02"
+        },
+        "rating": 4,
+        "review": "Very useful material, though I wish there were more practice exercises."
+    },
+    {
+        "user": {
+            "$oid": "67e94944d32dd7871324fb03"
+        },
+        "course": {
+            "$oid": "67ed512a19717ee987c28b03"
+        },
+        "rating": 5,
+        "review": "Perfect for beginners! Highly recommended."
+    },
+    {
+        "user": {
+            "$oid": "67e94944d32dd7871324fb04"
+        },
+        "course": {
+            "$oid": "67ed512a19717ee987c28b04"
+        },
+        "rating": 3,
+        "review": "Good content but presentation style could be more engaging."
+    },
+    {
+        "user": {
+            "$oid": "67e94944d32dd7871324fb05"
+        },
+        "course": {
+            "$oid": "67ed512a19717ee987c28b05"
+        },
+        "rating": 4,
+        "review": "Covers all important topics. Helped me clear my concepts."
+    },
+    {
+        "user": {
+            "$oid": "67e94944d32dd7871324fb06"
+        },
+        "course": {
+            "$oid": "67ed512a19717ee987c28b06"
+        },
+        "rating": 5,
+        "review": "Extremely detailed and practical course."
+    },
+    {
+        "user": {
+            "$oid": "67e94944d32dd7871324fb07"
+        },
+        "course": {
+            "$oid": "67ed512a19717ee987c28b07"
+        },
+        "rating": 4,
+        "review": "Instructor explains everything patiently and with real examples."
+    },
+    {
+        "user": {
+            "$oid": "67e94944d32dd7871324fb08"
+        },
+        "course": {
+            "$oid": "67ed512a19717ee987c28b08"
+        },
+        "rating": 3,
+        "review": "Decent course, but some videos were outdated."
+    },
+    {
+        "user": {
+            "$oid": "67e94944d32dd7871324fb09"
+        },
+        "course": {
+            "$oid": "67ed512a19717ee987c28b09"
+        },
+        "rating": 5,
+        "review": "Best course on the topic! Very well structured and informative."
+    },
+    {
+        "user": {
+            "$oid": "67e94944d32dd7871324fb10"
+        },
+        "course": {
+            "$oid": "67ed512a19717ee987c28b10"
+        },
+        "rating": 4,
+        "review": "Amazing content, just needed a few more assignments."
+    }
+]

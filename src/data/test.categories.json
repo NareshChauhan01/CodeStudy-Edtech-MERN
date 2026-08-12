@@ -1,0 +1,152 @@
+[
+  {
+    "_id": {
+      "$oid": "67e94a1cd32dd7871324fc4e"
+    },
+    "name": "Python",
+    "description": "Python Programming Language",
+    "courses": [
+      "67f0327fd0192a1fc09c3b2e",
+      "67ed512a19717ee987c28a00",
+      "67ed512a19717ee987c28a01",
+      "67ed512a19717ee987c28a16",
+      "67ed512a19717ee987c28a12",
+      "67ed512a19717ee987c28a13",
+      "67ed512a19717ee987c28a14",
+      "67ed512a19717ee987c28a15"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67e94a36d32dd7871324fc51"
+    },
+    "name": "Web Development",
+    "description": "Mern Stack Development",
+    "courses": [
+      "67ee8ba811dd4c80b10528f1",
+      "67f035f7d0192a1fc09c3b54",
+      "67ed512a19717ee987c28a21",
+      "67ed512a19717ee987c28a17",
+      "67ed512a19717ee987c28a18",
+      "67ed512a19717ee987c28a19",
+      "67ed512a19717ee987c28a1a"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67e94a62d32dd7871324fc54"
+    },
+    "name": "Android Development",
+    "description": "Kotlin in android studio",
+    "courses": [
+      "67f037c0d0192a1fc09c3b7a",
+      "67ed512a19717ee987c28a1b",
+      "67ed512a19717ee987c28a1c",
+      "67ed512a19717ee987c28a1d",
+      "67ed512a19717ee987c28a1e",
+      "67ed512a19717ee987c28a1f"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67e94a7ad32dd7871324fc57"
+    },
+    "name": "Blockchain",
+    "description": "Crypto",
+    "courses": [
+      "67ed512a19717ee987c28a06",
+      "67f038b1d0192a1fc09c3b98",
+      "67ed512a19717ee987c28a25",
+      "67ed512a19717ee987c28a26",
+      "67ed512a19717ee987c28a22",
+      "67ed512a19717ee987c28a23",
+      "67ed512a19717ee987c28a24"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67e94a98d32dd7871324fc5a"
+    },
+    "name": "Artificial Intelligent",
+    "description": "AI",
+    "courses": [
+      "67f03974d0192a1fc09c3bb6",
+      "67ed512a19717ee987c289fb",
+      "67ed512a19717ee987c28ad1",
+      "67ed512a19717ee987c28ad2",
+      "67ed512a19717ee987c28a27",
+      "67ed512a19717ee987c28a28",
+      "67ed512a19717ee987c28a29"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67e94ab1d32dd7871324fc5d"
+    },
+    "name": "Data Science",
+    "description": "Machine Learning",
+    "courses": [
+      "67ed512a19717ee987c28a02",
+      "67ed512a19717ee987c28a2a",
+      "67ed512a19717ee987c28a2b",
+      "67ed512a19717ee987c28a2c",
+      "67ed512a19717ee987c28a2d",
+      "67ed512a19717ee987c28a2e"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67e94ad8d32dd7871324fc60"
+    },
+    "name": "Cloud Computing",
+    "description": "Cloud based network",
+    "courses": [
+      "67ed512a19717ee987c28a07",
+      "67ed512a19717ee987c28a0c",
+      "67ed512a19717ee987c28a0d",
+      "67ed512a19717ee987c28a0e",
+      "67ed512a19717ee987c28a0f",
+      "67ed512a19717ee987c28a11"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67e94af2d32dd7871324fc63"
+    },
+    "name": "Devops",
+    "description": "Networking Troubleshoot",
+    "courses": [
+      "67ed512a19717ee987c28a05",
+      "67ed512a19717ee987c28a10",
+      "67ed512a19717ee987c28a08",
+      "67ed512a19717ee987c28a09",
+      "67ed512a19717ee987c28a0a",
+      "67ed512a19717ee987c28a0b"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67e94b19d32dd7871324fc66"
+    },
+    "name": "Cyber Security",
+    "description": "Ethical Hacking",
+    "courses": [
+      "67ed512a19717ee987c28a03",
+      "67f039f7d0192a1fc09c3bd4",
+      "67ed512a19717ee987c28a2f",
+      "67ed512a19717ee987c28a30",
+      "67ed512a19717ee987c28a31",
+      "67ed512a19717ee987c28a32",
+      "67ed512a19717ee987c28a33"
+    ],
+    "__v": 0
+  }
+]
