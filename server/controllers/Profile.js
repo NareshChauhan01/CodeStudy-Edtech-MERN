@@ -79,7 +79,8 @@ exports.updateProfile = async (req, res) => {
 exports.deleteAccount = async (req, res) => {
   try {
     //get id
-    const id = req.user.id
+    const id = req.user.id;
+    console.log("Delete Account",id)
 
     //validation
     const userDetails = await User.findById(id)
@@ -107,16 +108,16 @@ exports.deleteAccount = async (req, res) => {
     }
 
     //Todo : unenroll user from all enrolled course
-    for (const course of userDetails?.courses) {
-      await Course.findByIdAndUpdate(
-        course,
-        {
-          $pull: {
-            studentEnrolled: id
-          }
-        }
-      )
-    }
+    // for (const course of userDetails?.courses) {
+    //   await Course.findByIdAndUpdate(
+    //     course,
+    //     {
+    //       $pull: {
+    //         studentEnrolled: id
+    //       }
+    //     }
+    //   )
+    // }
 
     const userMail = userDetails?.email
     const userName = userDetails?.firstName + " " + userDetails?.lastName
@@ -124,7 +125,7 @@ exports.deleteAccount = async (req, res) => {
     //delete user
     await User.findByIdAndDelete(id)
 
-    await mailSender(userMail, "Account Deletion Email From StudyNotion", accountDeletionTemplate(userName))
+    await mailSender(userMail, "Account Deletion Email From CodeStudy", accountDeletionTemplate(userName))
 
     //return response
     return res.status(200).json({
@@ -152,6 +153,7 @@ exports.getAllUserDetails = async (req, res) => {
     //return res
     return res.status(200).json({
       success: true,
+      userDetails,
       message: "User Details fetched successfully"
     })
   }

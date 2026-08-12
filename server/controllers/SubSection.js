@@ -6,11 +6,13 @@ const { uploadImageToCloudinary } = require("../utils/imageUploader")
 exports.createSubSection = async (req, res) => {
   try {
     //data fetch
-    const { title, description, sectionId } = req.body
-
+    const { title, description, sectionId } = req.body;
+    console.log(title, description, sectionId)
+    
     //extract video file
-    const video = req.files.video
-
+    const video = req.files.videoFile
+    
+    console.log(video)
     //data validation
     if (!title || !description || !video || !sectionId) {
       return res.status(400).json({

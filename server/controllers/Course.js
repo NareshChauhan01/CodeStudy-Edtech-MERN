@@ -12,7 +12,7 @@ const { convertSecondsToDuration } = require("../utils/secToDuration")
 exports.createCourse = async (req, res) => {
   try {
     //fetch data
-    const {
+    let {
       courseName,
       courseDescription,
       whatYouWillLearn,
@@ -20,7 +20,7 @@ exports.createCourse = async (req, res) => {
       category,
       tag: _tag,
       instructions: _instructions,
-      status
+      status,
     } = req.body
 
     //get thumbnail image from request body
@@ -100,7 +100,7 @@ exports.createCourse = async (req, res) => {
           courses: newCourse._id
         }
       },
-      { new: true }
+      { returnNewDocument: "after" }
     )
 
     // console.log("User Schema -> ", userCourseAddResponse)
@@ -113,7 +113,7 @@ exports.createCourse = async (req, res) => {
           courses: newCourse._id
         }
       },
-      { new: true }
+      { returnNewDocument: "after" }
     )
 
     // console.log("Category Schema -> ", categoryCourseAddResponse)
