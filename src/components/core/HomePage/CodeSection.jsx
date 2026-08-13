@@ -3,7 +3,7 @@ import "../../../App.css"
 import { TypeAnimation } from "react-type-animation";
 
 import { Button } from "./Button";
-import  HighlightText  from "./HighlightText";
+import  {HighlightText}  from "./HighlightText";
 
 export function CodeSection({ paraValue, headingValue1, headingValue2, highlightValue, layout, buttonValue1, buttonValue2, codeValue, linkTo, arrow, clr1, clr2, codeClr, codeBg }) {
   return (

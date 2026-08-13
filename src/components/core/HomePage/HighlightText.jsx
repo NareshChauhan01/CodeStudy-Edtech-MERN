@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 import { motion } from "framer-motion";
 
-function HighlightText({ value, fStyle }) {
+export function HighlightText({ value, fStyle }) {
   return (
     <motion.span
       className={`${fStyle} bg-linear-to-b from-[#1FA2FF] via-[#12D8FA] to-[#A6FFCB] text-transparent bg-clip-text relative`}
@@ -13,5 +13,3 @@ function HighlightText({ value, fStyle }) {
     </motion.span>
   )
 }
-
-export default HighlightText
