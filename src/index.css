@@ -178,3 +178,19 @@
   --shadow-custom1: 20px 20px rgba(255, 255, 255, 0.25);
   --shadow-custom2: 5px -10px 50px 5px rgb(0 0 0 / 0.5);
 }
+
+::-webkit-scrollbar {
+   /* Customize the scrollbar width */
+   width: 3px;
+}
+
+::-webkit-scrollbar-track {
+   /* Customize the scrollbar track */
+   background-color: #000814;
+}
+
+::-webkit-scrollbar-thumb {
+   /* Customize the scrollbar thumb */
+   background-color: #999DAA;
+   border-radius: 5px;
+}
