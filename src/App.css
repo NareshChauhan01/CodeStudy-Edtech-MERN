@@ -2,3 +2,55 @@ html,
 body {
   overflow-x: hidden;
 }
+
+.bgHome {
+  background: url('../src/assests/images/bghome.svg');
+}
+
+.gredient-clr {
+  /* background: linear-gradient(150deg, #131100  30%, #24122e  100%); */
+  box-shadow: 0px 0px 30px 1px rgba(204, 0, 255, 0.266);
+  border-radius: 10px;
+  /* background-image: linear-gradient( 85.2deg,  rgba(33,3,40,1) 7.5%, rgba(65,5,72,1) 88.7% ); */
+}
+
+incomplete-step::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  background-color: aliceblue;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -6,6 +6,9 @@ import HighlightText from '../components/core/HomePage/HighlightText';
 import { Button } from '../components/core/HomePage/Button';
 import Banner from "../assests/videos/banner.mp4"
 
+import { codeSectionData, timelimePartData } from "../data/homePageData"
+import {CodeSection} from "../components/core/HomePage/CodeSection"
+
 
 function Home() {
   return (
@@ -84,6 +87,32 @@ function Home() {
                 <source src={Banner} />
               </video>
             </motion.div>
+
+            {/* Code Sections */}
+            {codeSectionData.map((item, index) => (
+              <motion.div
+                key={index}
+                // initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8 }}
+              >
+                <CodeSection
+                  layout={item.layout}
+                  headingValue1={item.headingValue1}
+                  highlightValue={item.highlightValue}
+                  headingValue2={item.headingValue2}
+                  paraValue={item.paraValue}
+                  buttonValue1={item.buttonValue1}
+                  arrow={true}
+                  clr1={true}
+                  buttonValue2={item.buttonValue2}
+                  clr2={false}
+                  codeValue={item.codeValue}
+                  codeClr={item.codeClr}
+                />
+              </motion.div>
+            ))}
 
           </div>
         </div>
