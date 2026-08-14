@@ -3,7 +3,7 @@ import toast from "react-hot-toast"
 import apiConnector from "../apiConnector"
 import { studentEndpoints } from "../apis"
 import { resetCartItems } from "./profileAPI";
-import rzpLogo from "../../assests/logos/rzp_logo.png"
+// import rzpLogo from "../../assests/logos/rzp_logo.png"
 import { resetCart } from "../../redux/slices/cartSlice";
 import { setPaymentLoading } from "../../redux/slices/courseSlice";
 
