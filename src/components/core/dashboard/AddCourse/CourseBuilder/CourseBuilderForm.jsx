@@ -125,14 +125,14 @@ export function CourseBuilderForm() {
 
   return (
     <motion.div
-      className="w-full bg-gradient-to-br from-richblack-800 via-richblack-900 to-richblack-800 rounded-xl overflow-hidden shadow-xl border border-richblack-600/30"
+      className="w-full bg-linear-to-br from-richblack-800 via-richblack-900 to-richblack-800 rounded-xl overflow-hidden shadow-xl border border-richblack-600/30"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
       <div className="bg-richblack-700 px-5 sm:px-7 py-4 border-b border-richblack-600 flex items-center gap-3">
         <FiDivideCircle className="text-yellow-50 text-xl sm:text-2xl" />
-        <h2 className="text-lg sm:text-xl font-bold bg-gradient-to-r from-yellow-100 to-yellow-200 text-transparent bg-clip-text">
+        <h2 className="text-lg sm:text-xl font-bold bg-linear-to-r from-yellow-100 to-yellow-200 text-transparent bg-clip-text">
           Course Builder
         </h2>
       </div>
@@ -311,7 +311,7 @@ export function CourseBuilderForm() {
 
           <motion.button
             onClick={goNextHandler}
-            className="w-fit px-5 py-2.5 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-md text-richblack-900 font-medium flex gap-2 items-center transition-all shadow-md hover:shadow-yellow-100/20"
+            className="w-fit px-5 py-2.5 bg-linear-to-r from-yellow-50 to-yellow-100 rounded-md text-richblack-900 font-medium flex gap-2 items-center transition-all shadow-md hover:shadow-yellow-100/20"
             whileHover={{ x: 3 }}
             whileTap={{ scale: 0.97 }}
           >

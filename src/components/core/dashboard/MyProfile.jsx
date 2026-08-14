@@ -41,7 +41,7 @@ export function MyProfile() {
 
   return (
     <motion.div
-      className="w-full max-w-[1000px] mx-auto pt-10 pb-10 md:pt-20 lg:pt-20 px-4 flex flex-col gap-8 text-richblack-5"
+      className="w-full max-w-250 mx-auto pt-10 pb-10 md:pt-20 lg:pt-20 px-4 flex flex-col gap-8 text-richblack-5"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -51,7 +51,7 @@ export function MyProfile() {
         variants={itemVariants}
       >
         <FiUser className="text-3xl text-yellow-50" />
-        <h1 className="text-3xl font-bold bg-gradient-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">
+        <h1 className="text-3xl font-bold bg-linear-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">
           My Profile
         </h1>
       </motion.div>
@@ -59,7 +59,7 @@ export function MyProfile() {
       <div className="flex flex-col gap-8">
         {/* Profile Card */}
         <motion.div
-          className="w-full p-6 md:p-8 flex flex-col md:flex-row justify-between items-center gap-6 bg-gradient-to-br from-richblack-800 to-richblack-900 rounded-xl border border-richblack-700 shadow-lg"
+          className="w-full p-6 md:p-8 flex flex-col md:flex-row justify-between items-center gap-6 bg-linear-to-br from-richblack-800 to-richblack-900 rounded-xl border border-richblack-700 shadow-lg"
           variants={itemVariants}
         >
           <div className="flex flex-col md:flex-row items-center gap-6">
@@ -83,12 +83,12 @@ export function MyProfile() {
                 </motion.div>
               ) : (
                 <motion.div
-                  className="w-28 h-28 rounded-full bg-gradient-to-br from-richblack-700 to-richblack-800 flex items-center justify-center border-2 border-yellow-50/30 shadow-xl"
+                    className="w-28 h-28 rounded-full bg-linear-to-br from-richblack-700 to-richblack-800 flex items-center justify-center border-2 border-yellow-50/30 shadow-xl"
                   initial={{ scale: 0.8, opacity: 0.5 }}
                   animate={{ scale: 1, opacity: 1 }}
                   transition={{ duration: 0.5, ease: "easeOut" }}
                 >
-                  <span className="text-4xl font-bold bg-gradient-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">
+                    <span className="text-4xl font-bold bg-linear-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">
                     {user?.firstName?.charAt(0)}
                   </span>
                 </motion.div>
@@ -116,7 +116,7 @@ export function MyProfile() {
 
             <div className="flex flex-col items-center md:items-start">
               <motion.h2
-                className="font-bold text-2xl md:text-3xl bg-gradient-to-r from-white to-richblack-200 text-transparent bg-clip-text"
+                className="font-bold text-2xl md:text-3xl bg-linear-to-r from-white to-richblack-200 text-transparent bg-clip-text"
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
@@ -141,7 +141,7 @@ export function MyProfile() {
           >
             <Link
               to="/dashboard/settings"
-              className="group flex gap-2 items-center bg-gradient-to-r from-yellow-50 to-yellow-100 hover:from-yellow-100 hover:to-yellow-200 text-richblack-900 px-5 py-2.5 rounded-lg transition-all duration-300 font-medium shadow-md"
+              className="group flex gap-2 items-center bg-linear-to-r from-yellow-50 to-yellow-100 hover:from-yellow-100 hover:to-yellow-200 text-richblack-900 px-5 py-2.5 rounded-lg transition-all duration-300 font-medium shadow-md"
             >
               <RiEditBoxLine className="text-lg group-hover:rotate-12 transition-transform" />
               <span>Edit Profile</span>
@@ -151,7 +151,7 @@ export function MyProfile() {
 
         {/* Personal Details Card */}
         <motion.div
-          className="w-full p-6 md:p-8 flex flex-col gap-8 bg-gradient-to-br from-richblack-800 to-richblack-900 rounded-xl border border-richblack-700 shadow-lg"
+          className="w-full p-6 md:p-8 flex flex-col gap-8 bg-linear-to-br from-richblack-800 to-richblack-900 rounded-xl border border-richblack-700 shadow-lg"
           variants={itemVariants}
         >
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b border-richblack-700 pb-4">
@@ -262,7 +262,7 @@ export function MyProfile() {
 
         {/* About Section */}
         <motion.div
-          className="w-full p-6 md:p-8 flex flex-col gap-8 bg-gradient-to-br from-richblack-800 to-richblack-900 rounded-xl border border-richblack-700 shadow-lg"
+          className="w-full p-6 md:p-8 flex flex-col gap-8 bg-linear-to-br from-richblack-800 to-richblack-900 rounded-xl border border-richblack-700 shadow-lg"
           variants={itemVariants}
         >
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b border-richblack-700 pb-4">

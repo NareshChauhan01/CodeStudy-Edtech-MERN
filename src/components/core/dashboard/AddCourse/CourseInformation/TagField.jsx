@@ -84,7 +84,7 @@ export function TagField({
               animate="animate"
               exit="exit"
               layout
-              className="py-1.5 px-3 flex gap-2 items-center rounded-full bg-gradient-to-r from-yellow-200 to-yellow-100 text-richblack-900 text-sm shadow-sm"
+              className="py-1.5 px-3 flex gap-2 items-center rounded-full bg-linear-to-r from-yellow-200 to-yellow-100 text-richblack-900 text-sm shadow-sm"
             >
               <span className="font-medium">{tag}</span>
               <button

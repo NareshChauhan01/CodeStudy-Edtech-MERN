@@ -92,7 +92,7 @@ export function PublishCourse() {
   return (
     <motion.form
       onSubmit={handleSubmit(submitHandler)}
-      className="w-full bg-gradient-to-br from-richblack-800 via-richblack-900 to-richblack-800 px-5 sm:px-8 py-8 sm:py-10 rounded-xl shadow-xl border border-richblack-600/30 flex flex-col gap-6 sm:gap-8"
+      className="w-full bg-linear-to-br from-richblack-800 via-richblack-900 to-richblack-800 px-5 sm:px-8 py-8 sm:py-10 rounded-xl shadow-xl border border-richblack-600/30 flex flex-col gap-6 sm:gap-8"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -102,7 +102,7 @@ export function PublishCourse() {
         className="flex items-center gap-3 border-b border-richblack-600 pb-4"
       >
         <IoRocketOutline className="text-yellow-50 text-2xl sm:text-3xl" />
-        <h2 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-yellow-100 to-yellow-200 text-transparent bg-clip-text">
+        <h2 className="text-xl sm:text-2xl font-bold bg-linear-to-r from-yellow-100 to-yellow-200 text-transparent bg-clip-text">
           Publish Your Course
         </h2>
       </motion.div>
@@ -157,7 +157,7 @@ export function PublishCourse() {
                 onChange={handleCheckboxChange}
                 className="sr-only peer"
               />
-              <div className="w-11 h-6 bg-richblack-600 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-richblack-5 after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-yellow-100"></div>
+              <div className="w-11 h-6 bg-richblack-600 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-0.5 after:bg-richblack-5 after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-yellow-100"></div>
               <span className="ml-1 text-sm font-medium text-richblack-5 sr-only">
                 {isPublic ? "Public" : "Private"}
               </span>
@@ -183,7 +183,7 @@ export function PublishCourse() {
 
         <motion.button
           type="submit"
-          className="px-5 py-2.5 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-lg text-richblack-900 font-medium flex items-center gap-2 shadow-md hover:shadow-yellow-100/20 transition-all"
+          className="px-5 py-2.5 bg-linear-to-r from-yellow-50 to-yellow-100 rounded-lg text-richblack-900 font-medium flex items-center gap-2 shadow-md hover:shadow-yellow-100/20 transition-all"
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.97 }}
           disabled={loading}

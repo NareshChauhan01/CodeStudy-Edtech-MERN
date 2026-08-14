@@ -35,7 +35,7 @@ export function ContactUs() {
       {/* Hero section with background elements */}
       <div className="relative pt-10 md:pt-20 lg:pt-20 overflow-hidden">
         {/* Background elements */}
-        <div className="absolute top-0 left-0 w-full h-48 bg-gradient-to-b from-richblack-800 to-transparent opacity-60"></div>
+        <div className="absolute top-0 left-0 w-full h-48 bg-linear-to-b from-richblack-800 to-transparent opacity-60"></div>
         <div className="absolute top-40 right-0 w-72 h-72 bg-yellow-50 rounded-full filter blur-[120px] opacity-5"></div>
         <div className="absolute bottom-0 left-20 w-72 h-72 bg-blue-500 rounded-full filter blur-[100px] opacity-5"></div>
 
@@ -47,9 +47,9 @@ export function ContactUs() {
           transition={{ duration: 0.6 }}
         >
           <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-richblack-5 mb-4">
-            Contact <span className="bg-gradient-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">Us</span>
+            Contact <span className="bg-linear-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">Us</span>
           </p>
-          <p className="text-richblack-300 max-w-[600px] mx-auto">
+          <p className="text-richblack-300 max-w-150 mx-auto">
             Get in touch with our team to learn more about our platform, courses, or any other questions you might have.
           </p>
         </motion.div>
@@ -63,7 +63,7 @@ export function ContactUs() {
         >
           {/* Contact Information Panel */}
           <motion.div
-            className="w-full lg:max-w-[400px] h-fit flex flex-col gap-8 lg:gap-10 bg-gradient-to-br from-richblack-800 to-richblack-700 rounded-2xl p-8 lg:p-10 order-2 lg:order-1 border border-richblack-600 shadow-lg"
+            className="w-full lg:max-w-100 h-fit flex flex-col gap-8 lg:gap-10 bg-linear-to-br from-richblack-800 to-richblack-700 rounded-2xl p-8 lg:p-10 order-2 lg:order-1 border border-richblack-600 shadow-lg"
             variants={itemVariants}
           >
             <div className="relative">
@@ -140,7 +140,7 @@ export function ContactUs() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <div className="bg-gradient-to-br from-richblack-800 to-richblack-700 p-2 rounded-2xl border border-richblack-600 shadow-lg overflow-hidden">
+        <div className="bg-linear-to-br from-richblack-800 to-richblack-700 p-2 rounded-2xl border border-richblack-600 shadow-lg overflow-hidden">
           <div className="relative pb-[56.25%] h-0 rounded-xl overflow-hidden">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3587.1758480077333!2d86.79593977486265!3d25.962272600289282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ee36d1a1bf4b45%3A0xd0d19cdb17887f59!2sB.%20P.%20Mandal%20College%20of%20Engineering%20Madhepura!5e0!3m2!1sen!2sin!4v1745001334764!5m2!1sen!2sin"
@@ -164,9 +164,9 @@ export function ContactUs() {
         viewport={{ once: true }}
       >
         <p className="text-2xl md:text-3xl font-bold text-richblack-5 mb-3">
-          Frequently Asked <span className="bg-gradient-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">Questions</span>
+          Frequently Asked <span className="bg-linear-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">Questions</span>
         </p>
-        <p className="text-richblack-300 mb-12 max-w-[600px] mx-auto">
+        <p className="text-richblack-300 mb-12 max-w-150 mx-auto">
           Find answers to common questions about our services and platform.
         </p>
 
@@ -179,7 +179,7 @@ export function ContactUs() {
           ].map((faq, index) => (
             <motion.div
               key={index}
-              className="bg-gradient-to-br from-richblack-800 to-richblack-700 p-6 rounded-xl border border-richblack-600 shadow-md hover:shadow-lg transition-all duration-300"
+              className="bg-linear-to-br from-richblack-800 to-richblack-700 p-6 rounded-xl border border-richblack-600 shadow-md hover:shadow-lg transition-all duration-300"
               whileHover={{ y: -5 }}
             >
               <h3 className="text-lg font-bold text-richblack-5 mb-2">{faq.q}</h3>

@@ -41,14 +41,14 @@ export function ForgotPassword() {
   return (
     <div className="w-full min-h-[calc(100vh-3.5rem)] bg-richblack-900 flex items-center justify-center py-12">
       <motion.div
-        className="w-11/12 sm:w-[500px] p-8 rounded-xl border border-richblack-700 bg-richblack-800 relative overflow-hidden"
+        className="w-11/12 sm:w-125 p-8 rounded-xl border border-richblack-700 bg-richblack-800 relative overflow-hidden"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
       >
         {/* Background decorations */}
-        <div className="absolute -top-12 -left-12 w-48 h-48 bg-gradient-to-br from-blue-500/10 to-transparent rounded-full blur-xl z-0"></div>
-        <div className="absolute -bottom-12 -right-12 w-48 h-48 bg-gradient-to-br from-yellow-500/10 to-transparent rounded-full blur-xl z-0"></div>
+        <div className="absolute -top-12 -left-12 w-48 h-48 bg-linear-to-br from-blue-500/10 to-transparent rounded-full blur-xl z-0"></div>
+        <div className="absolute -bottom-12 -right-12 w-48 h-48 bg-linear-to-br from-yellow-500/10 to-transparent rounded-full blur-xl z-0"></div>
 
         <div className="relative z-10">
           <motion.h2
@@ -95,7 +95,7 @@ export function ForgotPassword() {
 
             <motion.button
               type="submit"
-              className="w-full py-3 mt-2 bg-gradient-to-r from-yellow-50 to-yellow-100 hover:from-yellow-100 hover:to-yellow-200 rounded-lg text-richblack-900 font-semibold transition-all duration-300 shadow-sm"
+              className="w-full py-3 mt-2 bg-linear-to-r from-yellow-50 to-yellow-100 hover:from-yellow-100 hover:to-yellow-200 rounded-lg text-richblack-900 font-semibold transition-all duration-300 shadow-sm"
               whileHover={{ scale: 1.02, boxShadow: "0 5px 15px rgba(255, 214, 10, 0.2)" }}
               whileTap={{ scale: 0.98 }}
               disabled={isLoading}

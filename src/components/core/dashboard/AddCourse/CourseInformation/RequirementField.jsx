@@ -90,7 +90,7 @@ export function RequirementField({
         <motion.button
           type="button"
           onClick={handleAddRequirement}
-          className="w-fit px-4 py-2 bg-gradient-to-r from-yellow-200 to-yellow-100 rounded-lg text-richblack-900 font-medium flex items-center gap-2 shadow-md hover:shadow-yellow-100/20 transition-all"
+          className="w-fit px-4 py-2 bg-linear-to-r from-yellow-200 to-yellow-100 rounded-lg text-richblack-900 font-medium flex items-center gap-2 shadow-md hover:shadow-yellow-100/20 transition-all"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           disabled={!requirement.trim()}

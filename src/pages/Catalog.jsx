@@ -80,13 +80,13 @@ export function Catalog() {
   return (
     <div className=" text-richblack-5 bg-richblack-900">
       {/* Header Section */}
-      <div className="pt-10 md:pt-20 lg:pt-20 bg-gradient-to-b from-richblack-800 to-richblack-900 relative overflow-hidden">
+      <div className="pt-10 md:pt-20 lg:pt-20 bg-linear-to-b from-richblack-800 to-richblack-900 relative overflow-hidden">
         {/* Background elements */}
         <div className="absolute top-0 left-0 w-full h-full bg-grid-pattern opacity-5"></div>
         <div className="absolute -top-24 -left-24 w-64 h-64 rounded-full bg-yellow-50 opacity-10 blur-[80px]"></div>
         <div className="absolute -bottom-20 -right-20 w-64 h-64 rounded-full bg-blue-500 opacity-10 blur-[100px]"></div>
 
-        <div className="w-11/12 sm:w-10/12 max-w-[1200px] mx-auto flex flex-col gap-4 md:gap-6 relative">
+        <div className="w-11/12 sm:w-10/12 max-w-300 mx-auto flex flex-col gap-4 md:gap-6 relative">
           {/* Breadcrumbs */}
           <motion.div
             className="flex items-center text-sm text-richblack-300"
@@ -110,7 +110,7 @@ export function Catalog() {
 
           {/* Category Title */}
           <motion.h1
-            className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-white to-richblack-100 bg-clip-text text-transparent"
+            className="text-2xl md:text-3xl lg:text-4xl font-bold bg-linear-to-r from-white to-richblack-100 bg-clip-text text-transparent"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: 0.1 }}
@@ -120,7 +120,7 @@ export function Catalog() {
 
           {/* Category Description */}
           <motion.p
-            className="text-richblack-300 text-sm md:text-base max-w-[800px]"
+            className="text-richblack-300 text-sm md:text-base max-w-200"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: 0.2 }}
@@ -132,7 +132,7 @@ export function Catalog() {
 
       {/* Courses Sections */}
       <div className="bg-richblack-900 py-20 md:py-20 relative">
-        <div className="w-11/12 sm:w-10/12 max-w-[1200px] mx-auto flex flex-col gap-16">
+        <div className="w-11/12 sm:w-10/12 max-w-300 mx-auto flex flex-col gap-16">
           {/* Get Started Courses */}
           <motion.div
             className="flex flex-col gap-6"

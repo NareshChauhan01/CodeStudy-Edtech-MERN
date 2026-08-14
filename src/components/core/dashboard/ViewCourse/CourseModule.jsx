@@ -191,7 +191,7 @@ export function CourseModule() {
 
   return (
     <motion.div
-      className="max-w-[1000px] mx-auto px-4 pt-10 pb-10 md:pt-20 lg:pt-20 flex flex-col gap-8 text-richblack-50"
+      className="max-w-250 mx-auto px-4 pt-10 pb-10 md:pt-20 lg:pt-20 flex flex-col gap-8 text-richblack-50"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -307,7 +307,7 @@ export function CourseModule() {
             {!isLastVideo() && (
               <motion.button
                 onClick={goToNextVideo}
-                className="flex-1 md:flex-none flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 rounded-lg text-richblack-900 text-base font-medium transition-all duration-300 ml-auto"
+                    className="flex-1 md:flex-none flex items-center justify-center gap-2 px-6 py-3 bg-linear-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 rounded-lg text-richblack-900 text-base font-medium transition-all duration-300 ml-auto"
                 whileHover={{
                   scale: 1.02,
                   boxShadow: "0 4px 12px rgba(234, 179, 8, 0.25)"
@@ -323,7 +323,7 @@ export function CourseModule() {
           {/* Completion Status and Mark as Complete Button */}
           <motion.div
             variants={itemVariants}
-            className="flex flex-col md:flex-row justify-between items-center gap-4 p-4 md:p-5 bg-gradient-to-r from-richblack-800 to-richblack-700 rounded-xl border border-richblack-600 shadow-md"
+                className="flex flex-col md:flex-row justify-between items-center gap-4 p-4 md:p-5 bg-linear-to-r from-richblack-800 to-richblack-700 rounded-xl border border-richblack-600 shadow-md"
           >
             <div className="flex items-center gap-3">
               {isVideoCompleted ? (
@@ -372,7 +372,7 @@ export function CourseModule() {
             {videoData?.description && (
               <motion.div
                 variants={itemVariants}
-                className="mt-2 p-5 bg-gradient-to-r from-richblack-800 to-richblack-900 rounded-xl border border-richblack-700 shadow-md"
+                    className="mt-2 p-5 bg-linear-to-r from-richblack-800 to-richblack-900 rounded-xl border border-richblack-700 shadow-md"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: 0.4 }}

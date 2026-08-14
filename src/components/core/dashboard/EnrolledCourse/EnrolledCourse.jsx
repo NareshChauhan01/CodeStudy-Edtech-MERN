@@ -77,7 +77,7 @@ export function EnrolledCourse() {
   if (loading) {
     return (
       <motion.div
-        className="w-full h-[550px] grid place-content-center"
+        className="w-full h-137.5 grid place-content-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -112,7 +112,7 @@ export function EnrolledCourse() {
 
   return (
     <motion.div
-      className="min-h-screen w-full max-w-[1000px] mx-auto px-4 pb-10 pt-10 md:pt-20 lg:pt-20 flex flex-col gap-6 sm:gap-10 text-richblack-50"
+      className="min-h-screen w-full max-w-250 mx-auto px-4 pb-10 pt-10 md:pt-20 lg:pt-20 flex flex-col gap-6 sm:gap-10 text-richblack-50"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -122,7 +122,7 @@ export function EnrolledCourse() {
         variants={itemVariants}
       >
         <HiOutlineBookOpen className="text-yellow-50 text-3xl" />
-        <h2 className="font-bold text-3xl bg-gradient-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">
+        <h2 className="font-bold text-3xl bg-linear-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">
           Enrolled Courses
         </h2>
       </motion.div>
@@ -136,9 +136,9 @@ export function EnrolledCourse() {
           >
             {/* Desktop Table View */}
             <motion.div
-              className="hidden md:block rounded-xl overflow-hidden border border-richblack-600 shadow-md bg-gradient-to-b from-richblack-800 to-richblack-900"
+              className="hidden md:block rounded-xl overflow-hidden border border-richblack-600 shadow-md bg-linear-to-b from-richblack-800 to-richblack-900"
             >
-              <div className="bg-gradient-to-r from-richblack-700 to-richblack-800 px-5 py-4 grid grid-cols-5 place-items-center border-b border-richblack-600">
+              <div className="bg-linear-to-r from-richblack-700 to-richblack-800 px-5 py-4 grid grid-cols-5 place-items-center border-b border-richblack-600">
                 {tableHeader?.map((ele, idx) => (
                   <motion.p
                     key={idx}
@@ -173,18 +173,18 @@ export function EnrolledCourse() {
                       whileHover={{ x: 5 }}
                       transition={{ type: "spring", stiffness: 300, damping: 20 }}
                     >
-                      <div className="w-full max-w-[200px] relative overflow-hidden rounded-md border border-richblack-600 shadow-sm">
+                      <div className="w-full max-w-50 relative overflow-hidden rounded-md border border-richblack-600 shadow-sm">
                         <motion.img
                           alt={course.courseName}
                           src={course?.thumbnail}
                           loading="lazy"
-                          className=" aspect-video max-h-[200px] object-cover"
+                          className=" aspect-video max-h-50 object-cover"
                           animate={hoveredCourse === course._id ? { scale: 1.1 } : { scale: 1 }}
                           transition={{ duration: 0.4 }}
                         />
 
                         <motion.div
-                          className="absolute inset-0 bg-gradient-to-t from-richblack-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-1"
+                          className="absolute inset-0 bg-linear-to-t from-richblack-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-1"
                           initial={{ opacity: 0 }}
                           whileHover={{ opacity: 1 }}
                         >
@@ -214,7 +214,7 @@ export function EnrolledCourse() {
                       <p>{course.courseDuration || `--:--`}</p>
                     </div>
 
-                    <div className="w-full max-w-[140px] flex flex-col gap-2">
+                    <div className="w-full max-w-35 flex flex-col gap-2">
                       <p className="text-sm text-center">
                         {course.progressPercentage || 0}%
                       </p>
@@ -238,7 +238,7 @@ export function EnrolledCourse() {
               {enrolledCourses?.map((course, i) => (
                 <motion.div
                   key={i}
-                  className="bg-gradient-to-br from-richblack-800 to-richblack-900 rounded-xl overflow-hidden border border-richblack-700 shadow-md"
+                  className="bg-linear-to-br from-richblack-800 to-richblack-900 rounded-xl overflow-hidden border border-richblack-700 shadow-md"
                   variants={cardVariants}
                   whileHover="hover"
                   onClick={() => {
@@ -257,7 +257,7 @@ export function EnrolledCourse() {
                       whileHover={{ scale: 1.05 }}
                       transition={{ duration: 0.3 }}
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-richblack-900 to-transparent"></div>
+                    <div className="absolute inset-0 bg-linear-to-t from-richblack-900 to-transparent"></div>
                     <div className="absolute bottom-3 left-3 right-3 flex justify-between items-center">
                       <div className="flex items-center gap-2 text-xs bg-richblack-900/70 text-yellow-50 px-3 py-1 rounded-full backdrop-blur-sm">
                         <FiBook />
@@ -298,7 +298,7 @@ export function EnrolledCourse() {
         ) : (
           <motion.div
             key="no-courses"
-            className="flex flex-col items-center justify-center gap-4 py-16 px-4 bg-gradient-to-b from-richblack-800 to-richblack-900 rounded-xl border border-richblack-700 shadow-lg"
+              className="flex flex-col items-center justify-center gap-4 py-16 px-4 bg-linear-to-b from-richblack-800 to-richblack-900 rounded-xl border border-richblack-700 shadow-lg"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.4 }}

@@ -117,9 +117,9 @@ function Cart() {
   }
 
   return (
-    <div className="min-h-[calc(100vh-3.5rem)] max-w-[1000px] mx-auto rounded-lg bg-gradient-to-b from-richblack-900 to-richblack-800 mb-5 pt-10 pb-10 md:pt-20 lg:pt-20 px-4">
+    <div className="min-h-[calc(100vh-3.5rem)] max-w-250 mx-auto rounded-lg bg-linear-to-b from-richblack-900 to-richblack-800 mb-5 pt-10 pb-10 md:pt-20 lg:pt-20 px-4">
       <motion.div
-        className="max-w-[1000px] mx-auto flex flex-col gap-8 text-richblack-5"
+        className="max-w-250 mx-auto flex flex-col gap-8 text-richblack-5"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
@@ -128,10 +128,10 @@ function Cart() {
           className="flex items-center gap-3"
           variants={itemVariants}
         >
-          <div className="p-3 bg-gradient-to-br from-richblack-700 to-richblack-900 rounded-full shadow-lg border border-richblack-600">
+          <div className="p-3 bg-linear-to-br from-richblack-700 to-richblack-900 rounded-full shadow-lg border border-richblack-600">
             <FiShoppingBag className="text-3xl text-yellow-50" />
           </div>
-          <h1 className="font-bold text-3xl bg-gradient-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">
+          <h1 className="font-bold text-3xl bg-linear-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">
             Shopping Cart
           </h1>
         </motion.div>
@@ -163,14 +163,14 @@ function Cart() {
                     {cart.map((course) => (
                       <motion.div
                         key={course._id}
-                        className="flex flex-col sm:flex-row gap-5 border border-richblack-700 bg-gradient-to-br from-richblack-900 to-richblack-700 p-5 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all"
+                        className="flex flex-col sm:flex-row gap-5 border border-richblack-700 bg-linear-to-br from-richblack-900 to-richblack-700 p-5 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all"
                         variants={itemVariants}
                         exit="exit"
                         layoutId={course._id}
                         whileHover={{ y: -5, transition: { duration: 0.3 } }}
                       >
                         {/* Course Image */}
-                        <div className="w-full sm:w-[180px] h-[120px] sm:h-[120px] rounded-lg overflow-hidden flex-shrink-0 shadow-md border border-richblack-600">
+                        <div className="w-full sm:w-45 h-30 sm:h-30 rounded-lg overflow-hidden shrink-0 shadow-md border border-richblack-600">
                           <motion.img
                             src={course?.thumbnail}
                             alt={course.courseName}
@@ -194,7 +194,7 @@ function Cart() {
                           </p>
 
                           <div className="flex items-center justify-between pt-3 border-t border-richblack-600 mt-3">
-                            <p className="text-lg font-bold bg-gradient-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">
+                            <p className="text-lg font-bold bg-linear-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">
                               ₹ {course.price}
                             </p>
 
@@ -222,10 +222,10 @@ function Cart() {
 
               {/* Pricing Summary Section */}
               <motion.div
-                className="lg:w-[380px] sticky top-10 h-fit"
+                className="lg:w-95 sticky top-10 h-fit"
                 variants={itemVariants}
               >
-                <div className="bg-gradient-to-br from-richblack-700 to-richblack-900 rounded-xl border border-richblack-600 p-6 shadow-lg">
+                <div className="bg-linear-to-br from-richblack-700 to-richblack-900 rounded-xl border border-richblack-600 p-6 shadow-lg">
                   <h2 className="flex items-center gap-2 text-xl font-semibold text-richblack-5 pb-4 border-b border-richblack-600">
                     <FiCreditCard className="text-yellow-50" />
                     Order Summary
@@ -259,13 +259,13 @@ function Cart() {
                   </div>
                   <div className="flex justify-between items-center font-semibold text-lg mt-4">
                     <p className="text-richblack-100">Total</p>
-                    <p className="text-2xl bg-gradient-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">
+                    <p className="text-2xl bg-linear-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">
                       ₹ {totalAmount}
                     </p>
                   </div>
                   <motion.button
                     onClick={handleCheckOutNow}
-                    className="w-full mt-6 bg-gradient-to-r from-yellow-50 to-yellow-100 hover:from-yellow-100 hover:to-yellow-200 text-richblack-900 py-3 rounded-md font-medium transition-all flex items-center justify-center gap-2 shadow-md"
+                    className="w-full mt-6 bg-linear-to-r from-yellow-50 to-yellow-100 hover:from-yellow-100 hover:to-yellow-200 text-richblack-900 py-3 rounded-md font-medium transition-all flex items-center justify-center gap-2 shadow-md"
                     whileHover={{ scale: 1.02, y: -2 }}
                     whileTap={{ scale: 0.98 }}
                   >
@@ -293,7 +293,7 @@ function Cart() {
                   transition: { type: "spring", stiffness: 300, damping: 20 }
                 }}
               >
-                <div className="relative z-10 bg-gradient-to-br from-richblack-700 to-richblack-800 rounded-full p-8 shadow-xl border border-richblack-600">
+                  <div className="relative z-10 bg-linear-to-br from-richblack-700 to-richblack-800 rounded-full p-8 shadow-xl border border-richblack-600">
                   <MdOutlineShoppingCart className="text-6xl text-yellow-50" />
                 </div>
                 <motion.div
@@ -326,7 +326,7 @@ function Cart() {
               >
                 <Link
                   to="/catalog"
-                  className="bg-gradient-to-r from-yellow-50 to-yellow-100 hover:from-yellow-100 hover:to-yellow-200 text-richblack-900 py-3 px-6 rounded-md font-medium transition-all flex items-center gap-2"
+                    className="bg-linear-to-r from-yellow-50 to-yellow-100 hover:from-yellow-100 hover:to-yellow-200 text-richblack-900 py-3 px-6 rounded-md font-medium transition-all flex items-center gap-2"
                 >
                   <span>Browse Courses</span>
                   <motion.span

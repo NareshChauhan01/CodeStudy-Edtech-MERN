@@ -67,7 +67,7 @@ export function CourseDetails() {
 
   if (loading) {
     return (
-      <div className="w-full h-[600px] grid place-content-center bg-richblack-900">
+      <div className="w-full h-150 grid place-content-center bg-richblack-900">
         <div className="relative">
           <div className="h-16 w-16 rounded-full border-4 border-richblack-700 border-t-yellow-50 animate-spin"></div>
           <div className="absolute inset-0 h-16 w-16 rounded-full border-4 border-transparent border-b-yellow-50 animate-spin" style={{ animationDuration: '1s' }}></div>
@@ -78,7 +78,7 @@ export function CourseDetails() {
 
   if (!courseData) {
     return (
-      <div className="w-full h-[600px] grid place-content-center bg-richblack-900 text-richblack-5">
+      <div className="w-full h-150 grid place-content-center bg-richblack-900 text-richblack-5">
         <div className="text-center">
           <div className="text-5xl mb-4">😕</div>
           <p className="text-2xl font-bold mb-2">Course Not Found</p>
@@ -97,7 +97,7 @@ export function CourseDetails() {
   return (
     <div className="text-richblack-5 bg-richblack-900 min-h-screen">
       {/* Hero Section */}
-      <div className="bg-gradient-to-b from-richblack-800 to-richblack-900 pt-10 md:pt-20 lg:pt-20 relative overflow-hidden">
+      <div className="bg-linear-to-b from-richblack-800 to-richblack-900 pt-10 md:pt-20 lg:pt-20 relative overflow-hidden">
         {/* Background Elements */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute h-full w-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjEiPjxwYXRoIGQ9Ik0zNiAxOGMxLjIgMCAyLjEgMS4xIDIuMSAyLjNWNDMuN2MwIDEuMi0uOSAyLjMtMi4xIDIuM0gxOGMtMS4yIDAtMi4xLTEuMS0yLjEtMi4zVjIwLjNjMC0xLjIuOS0yLjMgMi4xLTIuM2gxOHoiLz48L2c+PC9nPjwvc3ZnPg==')]"></div>
@@ -105,7 +105,7 @@ export function CourseDetails() {
         <div className="absolute -top-24 -left-24 w-64 h-64 rounded-full bg-yellow-50 opacity-10 blur-[80px]"></div>
         <div className="absolute -bottom-20 -right-20 w-64 h-64 rounded-full bg-blue-500 opacity-10 blur-[100px]"></div>
 
-        <div className="w-11/12 max-w-[1200px] mx-auto text-white">
+        <div className="w-11/12 max-w-300 mx-auto text-white">
           <div className="flex flex-col lg:flex-row gap-10">
             {/* Course Details */}
             <motion.div
@@ -193,7 +193,7 @@ export function CourseDetails() {
       </div>
 
       {/* Course Card (Mobile) */}
-      <div className="lg:hidden w-11/12 max-w-[450px] mx-auto -mt-8 mb-10">
+      <div className="lg:hidden w-11/12 max-w-112.5 mx-auto -mt-8 mb-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -208,7 +208,7 @@ export function CourseDetails() {
       </div>
 
       {/* Content Sections */}
-      <div className="w-11/12 max-w-[1200px] mx-auto mt-8 mb-20">
+      <div className="w-11/12 max-w-300 mx-auto mt-8 mb-20">
         <div className="flex flex-col lg:flex-row gap-12">
           <div className="w-full lg:w-8/12 space-y-12">
             {/* What you'll learn */}
@@ -218,7 +218,7 @@ export function CourseDetails() {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <div className="bg-gradient-to-br from-richblack-800 to-richblack-900 border border-richblack-700 rounded-xl p-8 shadow-md hover:shadow-lg transition-all duration-300">
+              <div className="bg-linear-to-br from-richblack-800 to-richblack-900 border border-richblack-700 rounded-xl p-8 shadow-md hover:shadow-lg transition-all duration-300">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="p-2 bg-yellow-50 rounded-lg">
                     <HiOutlineLightBulb className="text-2xl text-richblack-900" />
@@ -256,7 +256,7 @@ export function CourseDetails() {
                 </button>
               </div>
 
-              <div className="bg-gradient-to-br from-richblack-800 to-richblack-900 border border-richblack-700 rounded-xl overflow-hidden shadow-md">
+              <div className="bg-linear-to-br from-richblack-800 to-richblack-900 border border-richblack-700 rounded-xl overflow-hidden shadow-md">
                 <div className="p-4 bg-richblack-700 flex flex-wrap justify-between items-center">
                   <div className="flex flex-wrap items-center gap-4 text-sm">
                     <div className="flex items-center gap-1 bg-richblack-800 py-1 px-3 rounded-full">
@@ -356,7 +356,7 @@ export function CourseDetails() {
                 <h2 className="text-2xl font-bold">Author</h2>
               </div>
 
-              <div className="bg-gradient-to-br from-richblack-800 to-richblack-900 border border-richblack-700 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
+              <div className="bg-linear-to-br from-richblack-800 to-richblack-900 border border-richblack-700 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mb-6">
                   <motion.div
                     className="w-20 h-20 rounded-full overflow-hidden border-2 border-yellow-50"

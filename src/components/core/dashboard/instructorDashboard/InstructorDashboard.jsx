@@ -103,13 +103,13 @@ export function InstructorDashboard() {
 
   return (
     <motion.div
-      className="w-full max-w-[1000px] mx-auto py-20 px-4 flex flex-col gap-6 md:gap-8 text-richblack-5"
+      className="w-full max-w-250 mx-auto py-20 px-4 flex flex-col gap-6 md:gap-8 text-richblack-5"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
     >
       <motion.div variants={itemVariants}>
-        <h1 className="text-3xl font-bold bg-gradient-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text mb-1">
+        <h1 className="text-3xl font-bold bg-linear-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text mb-1">
           Instructor Dashboard
         </h1>
         <p className="text-richblack-300 text-sm">
@@ -118,7 +118,7 @@ export function InstructorDashboard() {
       </motion.div>
 
       <motion.div
-        className="bg-gradient-to-r from-richblack-800 to-richblack-700 p-5 md:p-6 rounded-xl border border-richblack-700 shadow-lg"
+        className="bg-linear-to-r from-richblack-800 to-richblack-700 p-5 md:p-6 rounded-xl border border-richblack-700 shadow-lg"
         variants={itemVariants}
       >
         <div className="flex flex-col md:flex-row gap-4 items-start md:items-center justify-between">
@@ -193,7 +193,7 @@ export function InstructorDashboard() {
           </div>
 
           {isLoading ? (
-            <div className="h-[320px] flex items-center justify-center">
+            <div className="h-80 flex items-center justify-center">
               <div className="w-10 h-10 border-4 border-t-yellow-50 border-richblack-500 rounded-full animate-spin"></div>
             </div>
           ) : (
@@ -207,7 +207,7 @@ export function InstructorDashboard() {
                 </div>
                 <div className="h-2 bg-richblack-700 rounded-full overflow-hidden">
                   <motion.div
-                    className="h-full bg-gradient-to-r from-green-400 to-green-300"
+                      className="h-full bg-linear-to-r from-green-400 to-green-300"
                     initial={{ width: 0 }}
                     animate={{ width: `${Math.min(totalStudentEnrolled * 5, 100)}%` }}
                     transition={{ duration: 1, ease: "easeOut" }}
@@ -224,7 +224,7 @@ export function InstructorDashboard() {
                 </div>
                 <div className="h-2 bg-richblack-700 rounded-full overflow-hidden">
                   <motion.div
-                    className="h-full bg-gradient-to-r from-yellow-400 to-yellow-300"
+                      className="h-full bg-linear-to-r from-yellow-400 to-yellow-300"
                     initial={{ width: 0 }}
                     animate={{ width: "92%" }}
                     transition={{ duration: 1, ease: "easeOut" }}
@@ -289,7 +289,7 @@ export function InstructorDashboard() {
         </div>
 
         {isLoading ? (
-          <div className="min-h-[200px] flex items-center justify-center">
+          <div className="min-h-50 flex items-center justify-center">
             <div className="w-10 h-10 border-4 border-t-yellow-50 border-richblack-500 rounded-full animate-spin"></div>
           </div>
         ) : (

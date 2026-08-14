@@ -65,7 +65,7 @@ export function ChangeProfileImg() {
   }, [imageFile]);
 
   return (
-    <div className="w-full p-6 sm:p-8 bg-gradient-to-br from-richblack-800 to-richblack-900 rounded-xl shadow-md border border-richblack-700">
+    <div className="w-full p-6 sm:p-8 bg-linear-to-br from-richblack-800 to-richblack-900 rounded-xl shadow-md border border-richblack-700">
       <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-8">
         <div className="relative">
           <motion.div

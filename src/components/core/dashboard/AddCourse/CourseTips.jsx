@@ -51,13 +51,13 @@ export function CourseTips() {
 
   return (
     <motion.div
-      className="w-full max-w-full lg:max-w-[400px] h-fit bg-gradient-to-br from-richblack-800 via-richblack-900 to-richblack-800 rounded-xl shadow-xl border border-richblack-600/30 overflow-hidden"
+      className="w-full max-w-full lg:max-w-100 h-fit bg-linear-to-br from-richblack-800 via-richblack-900 to-richblack-800 rounded-xl shadow-xl border border-richblack-600/30 overflow-hidden"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
     >
       {/* Header Section with Gradient */}
-      <div className="bg-gradient-to-r from-richblack-700/80 to-richblack-800 border-b border-richblack-600/50 px-5 py-4">
+      <div className="bg-linear-to-r from-richblack-700/80 to-richblack-800 border-b border-richblack-600/50 px-5 py-4">
         {/* Mobile Expandable Header */}
         <div className="flex items-center justify-between lg:hidden">
           <motion.div
@@ -80,7 +80,7 @@ export function CourseTips() {
               />
               <BsLightningChargeFill className="relative text-xl text-yellow-100" />
             </div>
-            <span className="text-lg font-bold bg-gradient-to-r from-yellow-100 to-yellow-200 text-transparent bg-clip-text">
+            <span className="text-lg font-bold bg-linear-to-r from-yellow-100 to-yellow-200 text-transparent bg-clip-text">
               Course Upload Tips
             </span>
           </motion.div>
@@ -116,7 +116,7 @@ export function CourseTips() {
             />
             <BsLightningChargeFill className="relative text-2xl text-yellow-100" />
           </div>
-          <span className="text-xl font-bold bg-gradient-to-r from-yellow-100 to-yellow-200 text-transparent bg-clip-text">
+          <span className="text-xl font-bold bg-linear-to-r from-yellow-100 to-yellow-200 text-transparent bg-clip-text">
             Course Upload Tips
           </span>
         </motion.div>

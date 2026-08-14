@@ -179,7 +179,7 @@ export function CourseInformationForm() {
       initial="hidden"
       animate="visible"
       onSubmit={handleSubmit(submitHandler)}
-      className="w-full bg-gradient-to-br from-richblack-800 via-richblack-900 to-richblack-800 px-4 sm:px-6 md:px-8 py-8 sm:py-10 rounded-xl shadow-xl border border-richblack-600/30 flex flex-col gap-6 sm:gap-8"
+      className="w-full bg-linear-to-br from-richblack-800 via-richblack-900 to-richblack-800 px-4 sm:px-6 md:px-8 py-8 sm:py-10 rounded-xl shadow-xl border border-richblack-600/30 flex flex-col gap-6 sm:gap-8"
     >
       {/* Header */}
       <motion.div
@@ -187,7 +187,7 @@ export function CourseInformationForm() {
         className="flex items-center gap-3 border-b border-richblack-600 pb-6"
       >
         <HiOutlineDocumentText className="text-yellow-50 text-2xl sm:text-3xl" />
-        <h2 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-yellow-100 to-yellow-200 text-transparent bg-clip-text">
+        <h2 className="text-xl sm:text-2xl font-bold bg-linear-to-r from-yellow-100 to-yellow-200 text-transparent bg-clip-text">
           Course Information
         </h2>
       </motion.div>
@@ -219,7 +219,7 @@ export function CourseInformationForm() {
           placeholder="Enter Description"
           id="description"
           {...register("courseDescription", { required: true })}
-          className="min-h-[120px] py-3 rounded-lg px-5 bg-richblack-700 outline-none border border-richblack-600 focus:border-yellow-100 transition-colors duration-300 text-richblack-50 resize-y"
+          className="min-h-30 py-3 rounded-lg px-5 bg-richblack-700 outline-none border border-richblack-600 focus:border-yellow-100 transition-colors duration-300 text-richblack-50 resize-y"
         />
         {errors.courseDescription && (
           <span className="text-xs text-pink-300">Course description is required</span>
@@ -320,7 +320,7 @@ export function CourseInformationForm() {
           id="course-benefits"
           name="courseBenefits"
           {...register("courseBenefits", { required: true })}
-          className="min-h-[120px] py-3 rounded-lg px-5 bg-richblack-700 outline-none border border-richblack-600 focus:border-yellow-100 transition-colors duration-300 text-richblack-50 resize-y"
+          className="min-h-30 py-3 rounded-lg px-5 bg-richblack-700 outline-none border border-richblack-600 focus:border-yellow-100 transition-colors duration-300 text-richblack-50 resize-y"
         />
         {errors.courseBenefits && (
           <span className="text-xs text-pink-300">Course benefits are required</span>
@@ -358,7 +358,7 @@ export function CourseInformationForm() {
 
         <motion.button
           type="submit"
-          className="px-6 py-3 bg-gradient-to-r from-yellow-200 to-yellow-50 rounded-lg text-richblack-900 text-sm font-medium shadow-md hover:shadow-yellow-100/20 transition-all flex items-center gap-2"
+          className="px-6 py-3 bg-linear-to-r from-yellow-200 to-yellow-50 rounded-lg text-richblack-900 text-sm font-medium shadow-md hover:shadow-yellow-100/20 transition-all flex items-center gap-2"
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           disabled={loading}

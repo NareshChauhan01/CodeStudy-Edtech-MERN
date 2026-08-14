@@ -92,7 +92,7 @@ export function AddLectureModal({ setAddLecture, sectionId, token }) {
               placeholder="Enter Lecture Description"
               id="description"
               {...register("lectureDescription", { required: true })}
-              className="min-h-[100px] sm:min-h-[150px] py-2 sm:py-3 rounded-md px-3 sm:px-5 bg-richblack-800 outline-none border-b-[0.1rem] border-richblack-600 text-richblack-50 text-sm sm:text-base"
+              className="min-h-25 sm:min-h-37.5 py-2 sm:py-3 rounded-md px-3 sm:px-5 bg-richblack-800 outline-none border-b-[0.1rem] border-richblack-600 text-richblack-50 text-sm sm:text-base"
             />
 
             {errors.lectureDescription && (

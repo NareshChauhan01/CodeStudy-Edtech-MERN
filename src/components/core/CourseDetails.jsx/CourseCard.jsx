@@ -82,7 +82,7 @@ export function CourseCard({ courseId, courseData, setConfirmationModal }) {
   return (
     <div className="z-10 mt-20 lg:mt-0 w-full sticky top-10">
       <motion.div
-        className="bg-gradient-to-br from-richblack-800 to-richblack-900 rounded-xl overflow-hidden z-10 shadow-xl border border-richblack-700 hover:shadow-2xl transition-all duration-300"
+        className="bg-linear-to-br from-richblack-800 to-richblack-900 rounded-xl overflow-hidden z-10 shadow-xl border border-richblack-700 hover:shadow-2xl transition-all duration-300"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
@@ -114,7 +114,7 @@ export function CourseCard({ courseId, courseData, setConfirmationModal }) {
           <div className="flex flex-col">
             <div className="flex justify-between items-center">
               <div>
-                <p className="text-3xl font-bold bg-gradient-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">{`₹ ${courseData?.price || 0}`}</p>
+                <p className="text-3xl font-bold bg-linear-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">{`₹ ${courseData?.price || 0}`}</p>
                 {/* You can add original price here if you have it */}
                 {/* <p className="text-sm text-richblack-300 line-through">₹ {courseData?.originalPrice || 0}</p> */}
               </div>
@@ -137,7 +137,7 @@ export function CourseCard({ courseId, courseData, setConfirmationModal }) {
                   () => navigate("/dashboard/enrolled-courses") :
                   () => handleBuyCourse()
               }
-              className="cursor-pointer w-full py-3.5 bg-gradient-to-r from-yellow-50 to-yellow-100 text-richblack-900 rounded-lg font-semibold hover:from-yellow-100 hover:to-yellow-200 transition-all duration-300 flex items-center justify-center gap-2 shadow-sm"
+              className="cursor-pointer w-full py-3.5 bg-linear-to-r from-yellow-50 to-yellow-100 text-richblack-900 rounded-lg font-semibold hover:from-yellow-100 hover:to-yellow-200 transition-all duration-300 flex items-center justify-center gap-2 shadow-sm"
               whileHover={{ y: -2 }}
               whileTap={{ y: 0 }}
             >

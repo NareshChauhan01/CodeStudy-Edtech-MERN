@@ -83,7 +83,7 @@ export function ReviewCourse() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="p-5 border-b border-richblack-700 bg-gradient-to-r from-richblack-900 to-richblack-800">
+      <div className="p-5 border-b border-richblack-700 bg-linear-to-r from-richblack-900 to-richblack-800">
         <div className="text-lg font-semibold text-white flex items-center gap-2">
           <FaStar className="text-yellow-50" />
           <p>Course Reviews</p>
@@ -118,7 +118,7 @@ export function ReviewCourse() {
                 </motion.button>
               </div>
 
-              <div className="p-5 bg-gradient-to-br from-richblack-900/10 to-richblack-700 rounded-lg border border-richblack-700">
+                <div className="p-5 bg-linear-to-br from-richblack-900/10 to-richblack-700 rounded-lg border border-richblack-700">
                 {/* Rating display */}
                 <div className="mb-4">
                   <p className="text-sm text-richblack-300 mb-1">Your rating</p>

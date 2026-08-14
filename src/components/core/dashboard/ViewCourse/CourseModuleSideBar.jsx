@@ -78,13 +78,13 @@ export function CourseModuleSideBar({ onClose }) {
   }
 
   return (
-    <div className="w-[260px] md:w-[280px] min-h-screen bg-gradient-to-b from-richblack-800 to-richblack-900 text-richblack-5 flex flex-col shadow-xl relative overflow-y-auto h-full custom-scrollbar">
+    <div className="w-65 md:w-70 min-h-screen bg-linear-to-b from-richblack-800 to-richblack-900 text-richblack-5 flex flex-col shadow-xl relative overflow-y-auto h-full custom-scrollbar">
       {/* Header */}
-      <div className="sticky top-0 z-10 bg-gradient-to-r from-richblack-700 to-richblack-800 backdrop-blur-sm border-b border-richblack-700 px-4 pt-10 pb-5">
+      <div className="sticky top-0 z-10 bg-linear-to-r from-richblack-700 to-richblack-800 backdrop-blur-sm border-b border-richblack-700 px-4 pt-10 pb-5">
         <div className="flex items-center gap-4">
           <motion.button
             onClick={() => navigate('/dashboard/enrolled-courses')}
-            className="w-9 h-9 bg-gradient-to-r from-yellow-500 to-yellow-600 rounded-full grid place-content-center shadow-md"
+            className="w-9 h-9 bg-linear-to-r from-yellow-500 to-yellow-600 rounded-full grid place-content-center shadow-md"
             whileHover={{ scale: 1.05, boxShadow: "0 5px 15px rgba(255, 214, 10, 0.3)" }}
             whileTap={{ scale: 0.95 }}
           >
@@ -130,7 +130,7 @@ export function CourseModuleSideBar({ onClose }) {
             <motion.div
               key={sec._id}
               className={`rounded-xl overflow-hidden border ${activeStatus === sec._id
-                ? "border-yellow-500/30 bg-gradient-to-r from-yellow-500/10 to-transparent"
+                ? "border-yellow-500/30 bg-linear-to-r from-yellow-500/10 to-transparent"
                 : "border-richblack-600 bg-richblack-700/30"}`}
               variants={sectionVariants}
             >
@@ -147,7 +147,7 @@ export function CourseModuleSideBar({ onClose }) {
                     color: activeStatus === sec._id ? "#eab308" : "#9ca3af"
                   }}
                   transition={{ duration: 0.3 }}
-                  className="flex-shrink-0"
+                  className="shrink-0"
                 >
                   <IoIosArrowDown className="text-lg group-hover:text-yellow-50 transition-colors" />
                 </motion.div>
@@ -179,13 +179,13 @@ export function CourseModuleSideBar({ onClose }) {
                             className={`
                                                                 flex items-center gap-3 px-4 py-3 border-l-2 cursor-pointer transition-all duration-300
                                                                 ${isActive
-                                ? "border-l-yellow-500 bg-gradient-to-r from-yellow-500/20 to-transparent"
+                              ? "border-l-yellow-500 bg-linear-to-r from-yellow-500/20 to-transparent"
                                 : "border-l-transparent hover:border-l-yellow-500/50 hover:bg-richblack-700/50"}
                                                             `}
                             whileHover={{ x: 3 }}
                             whileTap={{ scale: 0.98 }}
                           >
-                            <div className="w-5 h-5 flex-shrink-0 grid place-content-center">
+                            <div className="w-5 h-5 shrink-0 grid place-content-center">
                               {isCompleted ? (
                                 <FaCheck className="text-xs text-caribbeangreen-300" />
                               ) : isActive ? (

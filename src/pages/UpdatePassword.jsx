@@ -47,7 +47,7 @@ export function UpdatePassword() {
     <div className="w-10/12 m-auto max-h-screen text-pure-greys-50">
       <form
         onSubmit={submitHandler}
-        className="max-w-[415px] mx-auto flex flex-col gap-5 tracking-wide"
+        className="max-w-103.75 mx-auto flex flex-col gap-5 tracking-wide"
       >
         <div>
           <h2 className="text-3xl font-bold">Choose New Password</h2>
@@ -69,7 +69,7 @@ export function UpdatePassword() {
             ></input>
 
             <span
-              className="absolute top-[58%] right-[1rem] cursor-pointer scale-110"
+              className="absolute top-[58%] right-4 cursor-pointer scale-110"
               onClick={() => setshowPass1(!showPass1)}
             >
               {
@@ -92,7 +92,7 @@ export function UpdatePassword() {
             ></input>
 
             <span
-              className="absolute top-[58%] right-[1rem] cursor-pointer scale-110"
+              className="absolute top-[58%] right-4 cursor-pointer scale-110"
               onClick={() => setshowPass2(!showPass2)}
             >
               {

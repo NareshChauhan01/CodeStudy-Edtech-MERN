@@ -152,7 +152,7 @@ export function Coursechart({ dashboardData, chartType = 'revenue' }) {
             </p>
           </motion.div>
         ) : (
-          <div className="w-full h-full min-h-[300px] flex items-center justify-center py-2 text-richblack-5">
+          <div className="w-full h-full min-h-75 flex items-center justify-center py-2 text-richblack-5">
             {/* Fixed: Simplified PieChart configuration */}
             <PieChart
               series={[
@@ -192,7 +192,7 @@ export function Coursechart({ dashboardData, chartType = 'revenue' }) {
         <div className="mt-4 px-2">
           <p className="text-sm font-medium text-richblack-200 mb-2">Course Details:</p>
 
-          <div className="max-h-[100px] overflow-y-auto custom-scrollbar pr-2">
+          <div className="max-h-25 overflow-y-auto custom-scrollbar pr-2">
             {chartData.map((item, index) => (
               <motion.div
                 key={index}
@@ -206,7 +206,7 @@ export function Coursechart({ dashboardData, chartType = 'revenue' }) {
                     className="w-2.5 h-2.5 rounded-full"
                     style={{ backgroundColor: item.color }}
                   ></div>
-                  <span className="text-richblack-100 truncate max-w-[140px]">{item.label}</span>
+                  <span className="text-richblack-100 truncate max-w-35">{item.label}</span>
                 </div>
 
                 <span className="font-medium text-yellow-50">

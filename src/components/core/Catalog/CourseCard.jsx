@@ -12,7 +12,7 @@ export function CourseCard({ course }) {
   return (
     <Link to={`/courses/${course?._id}`}>
       <motion.div
-        className="bg-gradient-to-br from-richblack-800 to-richblack-900 rounded-xl overflow-hidden h-full border border-richblack-700 shadow-sm hover:shadow-xl transition-all duration-300"
+        className="bg-linear-to-br from-richblack-800 to-richblack-900 rounded-xl overflow-hidden h-full border border-richblack-700 shadow-sm hover:shadow-xl transition-all duration-300"
         whileHover={{
           y: -5,
           boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.4)"
@@ -81,7 +81,7 @@ export function CourseCard({ course }) {
           </div>
 
           {/* Divider */}
-          <div className="h-px bg-gradient-to-r from-richblack-700 via-richblack-600 to-richblack-700 my-2"></div>
+          <div className="h-px bg-linear-to-r from-richblack-700 via-richblack-600 to-richblack-700 my-2"></div>
 
           {/* Rating */}
           <div className="flex items-center gap-2">
@@ -97,7 +97,7 @@ export function CourseCard({ course }) {
 
           {/* Price */}
           <div className="mt-2 flex items-center justify-between">
-            <div className="text-xl font-bold bg-gradient-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">
+            <div className="text-xl font-bold bg-linear-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">
               ₹{course?.price || 0}
             </div>
 

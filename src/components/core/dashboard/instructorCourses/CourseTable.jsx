@@ -115,7 +115,7 @@ export default function CourseTable({ courses, setCourses }) {
       >
         {courses.length === 0 ? (
           <motion.div
-            className="text-center py-16 px-4 bg-gradient-to-b from-richblack-800 to-richblack-900 rounded-xl border border-richblack-700"
+            className="text-center py-16 px-4 bg-linear-to-b from-richblack-800 to-richblack-900 rounded-xl border border-richblack-700"
             variants={emptyStateVariants}
           >
             <p className="text-lg font-bold text-richblack-100">No Courses Found</p>
@@ -127,7 +127,7 @@ export default function CourseTable({ courses, setCourses }) {
           courses.map((course, index) => (
             <motion.div
               key={course._id}
-              className="bg-gradient-to-br from-richblack-800 to-richblack-900 rounded-xl overflow-hidden border border-richblack-700 shadow-md"
+              className="bg-linear-to-br from-richblack-800 to-richblack-900 rounded-xl overflow-hidden border border-richblack-700 shadow-md"
               variants={cardVariants}
               whileHover="hover"
               custom={index}
@@ -245,7 +245,7 @@ export default function CourseTable({ courses, setCourses }) {
 
       {/* Table View for Larger Screens */}
       <div className="hidden md:block overflow-x-auto">
-        <Table className="border border-richblack-700 rounded-xl overflow-hidden min-w-[600px] w-full bg-gradient-to-b from-richblack-800 to-richblack-900 shadow-lg">
+        <Table className="border border-richblack-700 rounded-xl overflow-hidden min-w-150 w-full bg-linear-to-b from-richblack-800 to-richblack-900 shadow-lg">
           <Thead>
             <Tr className="w-full uppercase font-bold grid grid-cols-8 border-b border-b-richblack-700 px-2 py-4 bg-richblack-800">
               <Th className="col-span-5 text-left pl-5 text-yellow-50">Courses</Th>
@@ -290,7 +290,7 @@ export default function CourseTable({ courses, setCourses }) {
                     <Td className="col-span-5 py-4 pl-5 pr-2">
                       <div className="flex items-center gap-4">
                         <motion.div
-                          className="aspect-video w-full max-w-[250px] h-full max-h-[250px] overflow-hidden rounded-md border border-richblack-700"
+                          className="aspect-video w-full max-w-62.5 h-full max-h-62.5 overflow-hidden rounded-md border border-richblack-700"
                           whileHover={{ scale: 1.03 }}
                           transition={{ duration: 0.2 }}
                         >

@@ -55,7 +55,7 @@ export function CourseSlider({ courses }) {
         </motion.div>
       ) : (
         <motion.div
-          className="flex flex-col items-center justify-center w-full bg-gradient-to-br from-richblack-800 to-richblack-900 rounded-lg py-16 px-4 border border-richblack-700"
+            className="flex flex-col items-center justify-center w-full bg-linear-to-br from-richblack-800 to-richblack-900 rounded-lg py-16 px-4 border border-richblack-700"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}

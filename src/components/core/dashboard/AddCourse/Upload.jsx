@@ -96,7 +96,7 @@ export function Upload({
               <FiUploadCloud className="text-xl sm:text-2xl text-yellow-200" />
             </div>
 
-            <div className="max-w-[200px] h-auto sm:h-[35px] text-xs text-center">
+            <div className="max-w-50 h-auto sm:h-8.75 text-xs text-center">
               {!isDragActive ? (
                 <p>
                   Drag and drop an {video ? "video" : "image"}, or click to

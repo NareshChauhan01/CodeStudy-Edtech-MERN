@@ -45,9 +45,9 @@ export function RenderSteps() {
     <>
       {/* Modern Steps indicator */}
       <div className="relative mb-8 sm:mb-12 flex w-full justify-center">
-        <div className="absolute top-[15px] sm:top-[20px] left-0 w-full h-1.5 bg-richblack-700 rounded-full">
+        <div className="absolute top-3.75 sm:top-5 left-0 w-full h-1.5 bg-richblack-700 rounded-full">
           <motion.div
-            className="h-full bg-gradient-to-r from-yellow-600 to-yellow-300 rounded-full"
+            className="h-full bg-linear-to-r from-yellow-600 to-yellow-300 rounded-full"
             initial={{ width: 0 }}
             animate={{
               width: step === 1 ? '0%' : step === 2 ? '50%' : '100%'

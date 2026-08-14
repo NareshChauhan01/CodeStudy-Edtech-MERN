@@ -12,7 +12,7 @@ export function CourseReviewCard({ reviewData }) {
       className="flex flex-col h-full cursor-pointer bg-richblack-800 rounded-xl overflow-hidden border border-richblack-700 shadow-lg hover:shadow-xl transition-all duration-300"
     >
       {/* Review Content */}
-      <div className="h-[150px] flex flex-col gap-5 p-5 italic bg-gradient-to-b from-richblack-800 to-richblack-700">
+      <div className="h-37.5 flex flex-col gap-5 p-5 italic bg-linear-to-b from-richblack-800 to-richblack-700">
         <FaQuoteLeft className="text-3xl text-yellow-50/15" />
         <p>{review || "This course helped me enhance my skills and knowledge."}</p>
       </div>

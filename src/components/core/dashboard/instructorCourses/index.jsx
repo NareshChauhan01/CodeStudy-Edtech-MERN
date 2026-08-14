@@ -53,7 +53,7 @@ export function InstructorCourses() {
 
   return (
     <motion.div
-      className="h-full w-full max-w-[1000px] mx-auto px-4 sm:px-6 pt-20 pb-10 flex flex-col gap-6 sm:gap-8 text-richblack-50"
+      className="h-full w-full max-w-250 mx-auto px-4 sm:px-6 pt-20 pb-10 flex flex-col gap-6 sm:gap-8 text-richblack-50"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -64,14 +64,14 @@ export function InstructorCourses() {
       >
         <div className="flex items-center gap-3">
           <FiBook className="text-yellow-50 text-3xl" />
-          <p className="font-bold text-3xl bg-gradient-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">
+          <p className="font-bold text-3xl bg-linear-to-r from-yellow-50 to-yellow-100 text-transparent bg-clip-text">
             My Courses
           </p>
         </div>
 
         <motion.button
           onClick={() => navigate("/dashboard/add-course")}
-          className="flex gap-2 justify-center items-center bg-gradient-to-r from-yellow-200 to-yellow-50 text-richblack-900 text-sm sm:text-base px-4 sm:px-5 py-2 sm:py-3 rounded-md w-full sm:w-auto shadow-md hover:shadow-yellow-100/20 transition-all duration-300"
+          className="flex gap-2 justify-center items-center bg-linear-to-r from-yellow-200 to-yellow-50 text-richblack-900 text-sm sm:text-base px-4 sm:px-5 py-2 sm:py-3 rounded-md w-full sm:w-auto shadow-md hover:shadow-yellow-100/20 transition-all duration-300"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >

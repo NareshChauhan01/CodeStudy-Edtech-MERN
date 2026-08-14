@@ -70,7 +70,7 @@ export function Sidebar() {
 
   return (
     <motion.div
-      className="hidden lg:block w-[260px] min-h-screen bg-gradient-to-b from-richblack-800 to-richblack-900 pt-5 border-r border-richblack-700 shadow-xl"
+      className="hidden lg:block w-65 min-h-screen bg-linear-to-b from-richblack-800 to-richblack-900 pt-5 border-r border-richblack-700 shadow-xl"
       initial="hidden"
       animate="visible"
       variants={sidebarVariants}
@@ -93,7 +93,7 @@ export function Sidebar() {
                 className={`
                                     flex items-center relative py-3 px-6 rounded-r-lg
                                     ${isActive ?
-                    "text-yellow-50 bg-gradient-to-r from-yellow-700 to-yellow-700/40 border-l-4 border-yellow-50" :
+                    "text-yellow-50 bg-linear-to-r from-yellow-700 to-yellow-700/40 border-l-4 border-yellow-50" :
                     "text-richblack-100 border-l-4 border-transparent hover:text-yellow-50 hover:bg-richblack-700"
                   }
                                     transition-all duration-300 group
@@ -123,7 +123,7 @@ export function Sidebar() {
         })}
 
         <motion.div
-          className="h-[1px] w-[85%] mx-auto my-5 bg-gradient-to-r from-transparent via-richblack-600 to-transparent"
+          className="h-px w-[85%] mx-auto my-5 bg-linear-to-r from-transparent via-richblack-600 to-transparent"
           variants={itemVariants}
         />
 
@@ -137,7 +137,7 @@ export function Sidebar() {
             className={`
                             flex items-center relative py-3 px-6 rounded-r-lg
                             ${matchRoute("/dashboard/settings") ?
-                "text-yellow-50 bg-gradient-to-r from-yellow-700 to-yellow-700/40 border-l-4 border-yellow-50" :
+                "text-yellow-50 bg-linear-to-r from-yellow-700 to-yellow-700/40 border-l-4 border-yellow-50" :
                 "text-richblack-100 border-l-4 border-transparent hover:text-yellow-50 hover:bg-richblack-700"
               }
                             transition-all duration-300 group

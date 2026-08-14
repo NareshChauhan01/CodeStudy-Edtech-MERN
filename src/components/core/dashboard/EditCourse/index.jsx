@@ -52,7 +52,7 @@ export default function EditCourse() {
 
   return (
     <motion.div
-      className="w-full max-w-[900px] mx-auto pt-32 pb-10 flex flex-col gap-8 text-richblack-5"
+      className="w-full max-w-225 mx-auto pt-32 pb-10 flex flex-col gap-8 text-richblack-5"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -106,7 +106,7 @@ export default function EditCourse() {
           >
             <div className="bg-richblack-800 border border-richblack-700 rounded-xl overflow-hidden shadow-md">
               {/* Course info header */}
-              <div className="p-6 md:p-8 border-b border-richblack-700 bg-gradient-to-r from-richblack-700 to-richblack-800">
+                <div className="p-6 md:p-8 border-b border-richblack-700 bg-linear-to-r from-richblack-700 to-richblack-800">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-10 h-10 rounded-full bg-yellow-50/10 flex items-center justify-center">
                     <IoSchoolOutline className="text-xl text-yellow-50" />

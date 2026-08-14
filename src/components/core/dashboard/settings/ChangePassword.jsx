@@ -50,7 +50,7 @@ export function ChangePassword() {
   return (
     <motion.form
       onSubmit={handleSubmit(submitHandler)}
-      className="w-full p-6 sm:p-8 bg-gradient-to-br from-richblack-800 to-richblack-900 rounded-xl shadow-md border border-richblack-700"
+      className="w-full p-6 sm:p-8 bg-linear-to-br from-richblack-800 to-richblack-900 rounded-xl shadow-md border border-richblack-700"
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3 }}
