@@ -14,6 +14,8 @@ exports.sendOTP = async (req, res) => {
     //fetch email from request body
     const { email } = req.body
 
+    console.log("Req aa gyi re forntend se")
+
     //check wheather user is already present
     const checkUserPresent = await User.findOne({ email })
 

@@ -14,6 +14,7 @@ const {
 
 // function to connect fronted sendOTP service with backend
 export function sendotp(email, navigate) {
+  console.log("in send otp ", email)
   return async (dispatch) => {
     const toastId = toast.loading("Loading...")
     dispatch(setLoading(true))
@@ -25,10 +26,12 @@ export function sendotp(email, navigate) {
       })
 
       // console.log(`SENDOTP_API Response : ${response}`)
-      // console.log(response.data.success)
+      console.log("SENDOTP_API Response :", response)
+      console.log(response.data.success)
 
       if (!response.data.success) {
-        throw new console.error(response.data.message);
+        // throw new console.error(response.data.message);
+        throw new Error(response.data.message);
       }
 
       toast.success("OTP Send Successfully 😊")
@@ -70,7 +73,7 @@ export function signUp(
         otp
       })
 
-      console.log(`SIGNUP_API Response : ${response}`)
+      console.log("SIGNUP_API Response :", response)
       toast.success("Account Created Successfully 🎉")
       navigate("/login")
     }

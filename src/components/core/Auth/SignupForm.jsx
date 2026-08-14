@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import toast from "react-hot-toast";
-import { motion } from "framer-motion";
+import { frameData, motion } from "framer-motion";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
@@ -48,6 +48,8 @@ const SignupForm = () => {
         ...formData,
         accountType,
       };
+
+      console.log("Signup Form Data", formData)
 
       // setting signup data to state that will be used after otp verification
       dispatch(setSignupData(signupData));
@@ -117,8 +119,8 @@ const SignupForm = () => {
               type="button"
               onClick={() => setAccountType(user)}
               className={`relative z-10 flex-1 flex items-center justify-center gap-2 py-2 rounded-full text-center transition-colors duration-300 ${accountType === user
-                  ? "text-yellow-50 font-medium"
-                  : "text-richblack-300"
+                ? "text-yellow-50 font-medium"
+                : "text-richblack-300"
                 }`}
               whileHover={{ scale: accountType !== user ? 1.05 : 1 }}
               whileTap={{ scale: 0.95 }}

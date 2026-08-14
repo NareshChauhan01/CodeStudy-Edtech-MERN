@@ -1,10 +1,12 @@
-// const BASE_URL = process.env.REACT_APP_BASE_URL
-const BASE_URL = "https"
+// const BASE_URL = import.meta.env.VITE_BASE_URL;
+const BASE_URL = "http://localhost:4000/api/v1"
+console.log("BaseUrl", BASE_URL)
+
 // auth endpoints
 export const endPoints = {
-  SENDOTP_API: BASE_URL + "sendotp",
-  SIGNUP_API: BASE_URL + "signup",
-  LOGIN_API: BASE_URL + "login"
+  SENDOTP_API: BASE_URL + "/auth/sendotp",
+  SIGNUP_API: BASE_URL + "/auth/signup",
+  LOGIN_API: BASE_URL + "/auth/login"
 }
 
 // profile endpoints

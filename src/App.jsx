@@ -7,7 +7,8 @@ import { Login } from './pages/Login'
 import { Signup } from './pages/Signup'
 import { OpenRoute } from './components/core/Auth/OpenRoute'
 import { Error } from './pages/Error'
-Signup
+import { VerifyEmail } from './components/core/Auth/VerifyEmail'
+
 function App() {
 
   return (
@@ -34,6 +35,16 @@ function App() {
           element={
             <OpenRoute>
               <Signup />
+            </OpenRoute>
+          }
+        />
+
+        {/* Verify Email Route */}
+        <Route
+          path="/verify-email"
+          element={
+            <OpenRoute>
+              <VerifyEmail />
             </OpenRoute>
           }
         />

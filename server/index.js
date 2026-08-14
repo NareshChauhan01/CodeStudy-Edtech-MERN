@@ -26,9 +26,9 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(
   cors({
-    // origin: "*", // Allows all origins in production
-    origin: "http://localhost:3000",
-    credentials: true
+    origin: "*", // Allows all origins in production
+    // origin: "http://localhost:3000",
+    // credentials: true
   })
 );
 
